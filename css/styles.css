@@ -166,6 +166,10 @@ burger
   background-color: #fff;
 }
 
+.about .container {
+  padding: 0;
+}
+
 .about-list,
 .additional-ins-list {
   display: flex;
@@ -214,6 +218,7 @@ burger
   border-radius: 8px;
   margin: 8px;
   padding: 28px 8px 0px 8px;
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 .article {
@@ -251,7 +256,7 @@ burger
 }
 
 .gc-txt {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 .descr-heading {
@@ -366,9 +371,11 @@ burger
   }
 
   .about-list-item {
-    min-width: 100px;
-    max-width: 150px;
-    padding-top: 20px;
+    width: 160px;
+    margin-right: 4px;
+  }
+  .about-list-item:nth-child(2n) {
+    margin-right: 0;
   }
 
   .ins-block-list-item {
