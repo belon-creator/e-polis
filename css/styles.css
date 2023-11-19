@@ -1,0 +1,377 @@
+/* Загальні стилі, які залишаються незмінними на всіх пристроях */
+:root {
+  --accent-color: rgba(43, 43, 197, 0.8);
+  --txt-color: #363535;
+  --secondary-bg: #f5f4fa;
+  --primary-bg: #e5e5e5;
+  --ftr-bg: #c4c4c4;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  display: block;
+}
+p {
+  color: var(--txt-color);
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 40px 16px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* Header */
+.hdr {
+  background-color: var(--secondary-bg);
+  min-height: 60px;
+}
+
+.hdr-nav {
+  max-width: 960px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.logo {
+  display: block;
+  border-radius: 50%;
+}
+
+.nav-list {
+  display: flex;
+  z-index: 23;
+}
+
+.contact-logo {
+  display: block;
+  width: 32px;
+  margin: 8px;
+}
+
+/* 
+burger
+*/
+
+.menu-toggle {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  padding: 20px;
+}
+
+.bar {
+  width: 30px;
+  height: 3px;
+  background-color: #333;
+  margin: 3px 0;
+  transition: 0.4s;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  right: -300px; /* Initially hidden to the right */
+  width: 300px;
+  height: 150px;
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: var(--secondary-bg);
+  border-radius: 8px;
+  transition: 0.4s;
+}
+
+.menu.open {
+  right: 0; /* Slide in from the right */
+  z-index: 5;
+}
+
+.menu-toggle.open .bar:nth-child(1) {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.menu-toggle.open .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-toggle.open .bar:nth-child(3) {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+.nav-link {
+  z-index: 10;
+}
+
+/* Main page */
+.main-page {
+  background-color: #fff;
+  /* background-image: url(../img/e-polis-bg.png); */
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding-top: 160px;
+  padding-bottom: 120px;
+  content: "";
+  background-image: url(../img/E-polis-desktop-banner.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.banner-btn {
+  all: initial;
+  margin: 8px;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: var(--accent-color);
+  color: #fdfbfb;
+  font-size: 36px;
+  text-align: center;
+  z-index: 2;
+}
+
+.about {
+  background-color: #fff;
+}
+
+.about-list,
+.additional-ins-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about-list-title {
+  margin-top: 12px;
+  text-align: center;
+}
+
+.about-list-item {
+  border-radius: 8px;
+  max-width: 200px;
+  margin: 8px;
+  padding: 28px 8px 0px 8px;
+  background-color: var(--secondary-bg);
+}
+
+.about-icon {
+  display: block;
+  margin: 0 auto;
+}
+
+.about-list-heading {
+  text-align: center;
+}
+
+.ad-ins-heading {
+  text-align: center;
+}
+
+.additional-ins-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.additional-ins-list-item {
+  min-width: 200px;
+  max-width: 300px;
+  border: 1px solid var(--primary-bg);
+  box-shadow: 4px 4px 5px 0px rgba(138, 126, 126, 0.75);
+  -webkit-box-shadow: 4px 4px 5px 0px rgba(138, 126, 126, 0.75);
+  -moz-box-shadow: 4px 4px 5px 0px rgba(138, 126, 126, 0.75);
+  border-radius: 8px;
+  margin: 8px;
+  padding: 28px 8px 0px 8px;
+}
+
+.article {
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+  background-image: url(../img/e-polis-bg.png);
+}
+
+.subbaner {
+  width: 80%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.partners {
+  background-color: var(--primary-bg);
+  text-align: center;
+}
+
+.partner-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: var(--secondary-bg);
+}
+
+.partner-list-item {
+  margin: 8px;
+  padding: 8px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.gc-txt {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.descr-heading {
+  margin-top: 50px;
+  text-align: center;
+  color: var(--txt-color);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.ins-block {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.ins-block-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ins-block-list-item {
+  width: 440px;
+  margin: 8px auto;
+  padding: 8px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid var(--primary-bg);
+  box-shadow: 4px 4px 5px 0px rgba(138, 126, 126, 0.75);
+  -webkit-box-shadow: 4px 4px 5px 0px rgba(138, 126, 126, 0.75);
+  -moz-box-shadow: 4px 4px 5px 0px rgba(138, 126, 126, 0.75);
+  border-radius: 8px;
+}
+
+.accordion-item {
+  margin: 5px;
+
+  box-shadow: 2px 5px 8px 0px rgba(48, 46, 46, 0.75);
+  -webkit-box-shadow: 2px 5px 8px 0px rgba(48, 46, 46, 0.75);
+  -moz-box-shadow: 2px 5px 8px 0px rgba(48, 46, 46, 0.75);
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.accordion-header {
+  cursor: pointer;
+  background-color: var(--secondary-bg);
+  padding: 6px;
+  margin: 0;
+}
+
+.accordion-content {
+  display: none;
+  padding: 8px;
+}
+
+/* Footer */
+.ftr {
+  height: 250px;
+  background-color: var(--ftr-bg);
+  padding: 20px;
+}
+
+.ftr-nav {
+  flex-direction: column;
+}
+
+.about-title {
+  text-align: center;
+}
+
+.questions {
+  text-align: center;
+}
+
+.copy {
+  text-align: center;
+}
+
+/* Медіазапит для пристроїв з меншими екранами, наприклад, мобільних телефонів */
+@media (max-width: 768px) {
+  .container {
+    padding: 20px 16px;
+    padding: 20px 16px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .hdr {
+    height: 40px;
+  }
+
+  .hdr-nav {
+    max-width: 100%;
+  }
+
+  .banner-btn {
+    font-size: 24px;
+  }
+
+  .banner {
+    background-image: url(../img/E-polis-mob.jpg);
+    padding-top: 90px;
+    padding-bottom: 60px;
+  }
+
+  .accordion {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .accordion-item {
+    margin: 3px;
+  }
+
+  .about-list-item {
+    min-width: 100px;
+    max-width: 150px;
+    padding-top: 20px;
+  }
+
+  .ins-block-list-item {
+    width: 300px;
+  }
+}
