@@ -68,8 +68,9 @@ p {
 
 .contact-logo {
   display: block;
-  width: 32px;
-  margin: 16px;
+  width: 38px;
+  /* padding: 12px; */
+  margin: 12px;
 }
 
 /* 
@@ -188,8 +189,8 @@ burger
 
 .about-list-item {
   border-radius: 8px;
-  max-width: 200px;
-  margin: 8px;
+  max-width: 220px;
+  margin-right: 8px;
   padding: 28px 8px 0px 8px;
   background-color: var(--secondary-bg);
 }
@@ -375,12 +376,13 @@ burger
   }
 
   .about-list-item {
-    width: 160px;
+    max-width: 165px;
     margin-right: 4px;
+    margin-bottom: 4px;
   }
-  .about-list-item:nth-child(2n) {
+  /* .about-list-item:nth-child(2n) {
     margin-right: 0;
-  }
+  } */
 
   .ins-block-list-item {
     width: 300px;
