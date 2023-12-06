@@ -42,6 +42,12 @@ p {
   margin: 0 auto;
 }
 
+.invisible {
+  width: 0;
+  margin: 0;
+  padding: 0;
+}
+
 /* Header */
 .hdr {
   background-color: var(--secondary-bg);
@@ -69,7 +75,6 @@ p {
 .contact-logo {
   display: block;
   width: 38px;
-  /* padding: 12px; */
   margin: 12px;
 }
 
@@ -215,7 +220,7 @@ burger
 
 .additional-ins-list-item {
   min-width: 200px;
-  max-width: 300px;
+  max-width: 340px;
   border: 1px solid var(--primary-bg);
   box-shadow: 4px 4px 5px 0px rgba(138, 126, 126, 0.75);
   -webkit-box-shadow: 4px 4px 5px 0px rgba(138, 126, 126, 0.75);
@@ -223,7 +228,7 @@ burger
   border-radius: 8px;
   margin: 8px;
   padding: 28px 8px 0px 8px;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .article {
@@ -250,13 +255,13 @@ burger
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  background-color: var(--secondary-bg);
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 .partner-list-item {
   margin: 8px;
   padding: 8px;
-  background-color: #fff;
+  /* background-color: #fff; */
   border-radius: 8px;
 }
 
