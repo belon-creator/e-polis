@@ -189,7 +189,7 @@ burger
 
 .about-list-item {
   border-radius: 8px;
-  max-width: 220px;
+  width: 232px;
   margin-right: 8px;
   padding: 28px 8px 0px 8px;
   background-color: var(--secondary-bg);
@@ -342,8 +342,7 @@ burger
 /* Медіазапит для пристроїв з меншими екранами, наприклад, мобільних телефонів */
 @media (max-width: 768px) {
   .container {
-    padding: 20px 16px;
-    padding: 20px 16px;
+    padding: 20px 8px;
     max-width: 100%;
     margin: 0 auto;
   }
@@ -376,13 +375,10 @@ burger
   }
 
   .about-list-item {
-    max-width: 165px;
+    width: 48%;
     margin-right: 4px;
-    margin-bottom: 4px;
+    margin-bottom: 8px;
   }
-  /* .about-list-item:nth-child(2n) {
-    margin-right: 0;
-  } */
 
   .ins-block-list-item {
     width: 300px;
