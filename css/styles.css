@@ -229,6 +229,27 @@ burger
   margin: 8px;
   padding: 28px 8px 0px 8px;
   background-color: rgba(255, 255, 255, 0.8);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.additional-contact-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.contact-logo-ad-ins {
+  width: 32px;
+  margin: 0;
+}
+
+.contact-link {
+  padding: 12px;
 }
 
 .article {
@@ -275,6 +296,26 @@ burger
   color: var(--txt-color);
   font-size: 32px;
   font-weight: bold;
+}
+
+.cta-btn {
+  background-color: rgba(106, 106, 247, 0.8);
+  color: var(--txt-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 32px;
+  width: 80%;
+  box-shadow: 4px 4px 5px 0px rgba(138, 126, 126, 0.75);
+  border-radius: 8px;
+  margin: 32px auto 46px;
+}
+
+.btn-txt {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  display: block;
+  margin-left: 16px;
 }
 
 .ins-block {
@@ -387,5 +428,13 @@ burger
 
   .ins-block-list-item {
     width: 300px;
+  }
+
+  .cta-btn {
+    padding: 24px 24px;
+  }
+
+  .btn-txt {
+    font-size: 24px;
   }
 }
