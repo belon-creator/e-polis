@@ -42,12 +42,6 @@ p {
   margin: 0 auto;
 }
 
-/* .invisible {
-  width: 0;
-  margin: 0;
-  padding: 0;
-} */
-
 /* Header */
 .hdr {
   background-color: var(--secondary-bg);
@@ -163,11 +157,13 @@ burger
   all: initial;
   margin: 8px;
   cursor: pointer;
-  padding: 8px;
+  padding: 12px 8px;
   border-radius: 5px;
   background-color: var(--accent-color);
   color: #fdfbfb;
   font-size: 36px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
   text-align: center;
   z-index: 2;
 }
