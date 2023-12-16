@@ -362,11 +362,12 @@ burger
 .ftr {
   height: 250px;
   background-color: var(--ftr-bg);
-  padding: 20px;
+  /* padding: 20px; */
 }
 
 .ftr-nav {
   flex-direction: column;
+  padding: 8px;
 }
 
 .about-title {
@@ -432,5 +433,11 @@ burger
 
   .btn-txt {
     font-size: 24px;
+  }
+
+  .ftr-contact-logo {
+    display: block;
+    width: 32px;
+    margin: 8px;
   }
 }

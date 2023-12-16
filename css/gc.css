@@ -1,0 +1,10 @@
+.countries {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.green-card-terytory {
+  max-width: 768px;
+}
