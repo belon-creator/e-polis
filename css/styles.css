@@ -152,14 +152,14 @@ burger
   all: initial;
   margin: 8px;
   cursor: pointer;
-  padding: 12px 8px;
+  padding: 8px;
   border-radius: 5px;
   background-color: #fff;
   color: var(--txt-color);
   font-size: 32px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
-  text-align: center;
+  text-align: right;
   z-index: 2;
   background-size: contain;
   background-position: 0 0;
@@ -167,11 +167,20 @@ burger
   background-repeat: no-repeat;
 }
 
+.banner-btn:hover .order {
+  /* background-color: #bb1818; */
+  transform: scale(1.01);
+  transition-duration: 250ms;
+  box-shadow: 2px 2px 8px -1px rgba(0, 0, 0, 0.74);
+  -webkit-box-shadow: 2px 2px 8px -1px rgba(0, 0, 0, 0.74);
+  -moz-box-shadow: 2px 2px 8px -1px rgba(0, 0, 0, 0.74);
+}
+
 .banner-btn-txt {
   display: block;
   max-width: 50%;
   background-color: rgba(255, 255, 255, 0.4);
-  margin-right: 16px;
+  /* margin-right: 16px; */
 }
 
 .banner-btn-txt-descr {
@@ -183,24 +192,29 @@ burger
 .avtocyvilka {
   width: 100%;
   background-image: url(../img/3129573.jpg);
-  min-height: 200px;
+  height: 220px;
   border: 1px solid #b3b2b2;
   display: flex;
   align-items: end;
-  justify-content: center;
+  justify-content: space-between;
   flex-direction: column;
 }
 
 .international-ins {
   width: calc(50% - 16px);
-  height: 200px;
+  height: 220px;
   margin: 8px;
   box-sizing: border-box;
   border: 1px solid #b3b2b2;
+}
+
+.banner-btn-txt-container {
+  height: 100%;
   display: flex;
   align-items: end;
-  justify-content: center;
+  justify-content: space-around;
   flex-direction: column;
+  /* padding: 8px; */
 }
 
 .travel {
@@ -208,7 +222,14 @@ burger
 }
 
 .green-card {
-  background-image: url(../img/undraw_electric_car_b7hl.png);
+  background-image: url(../img/a577465e-f5fc-4973-9b18-242ac221267d.jpg);
+}
+
+.order {
+  font-size: 16px;
+  padding: 6px;
+  background-color: var(--accent-color);
+  border-radius: 8px;
 }
 
 .about {
@@ -445,23 +466,37 @@ burger
     font-size: 24px;
   }
 
+  .banner-btn-txt {
+    font-size: 16px;
+  }
+
   .banner-btn-txt-descr {
     font-size: 8px;
     max-width: 50%;
     margin-top: 12px;
+    background-color: rgba(255, 255, 255, 0.4);
   }
 
   .avtocyvilka {
     width: 100%;
-    background-image: url(../img/3129573.jpg);
-    min-height: 200px;
+    height: 200px;
   }
 
   .international-ins {
     font-size: 18px;
     width: calc(50% - 8px);
-    min-height: 150px;
+    height: 200px;
     margin: 4px;
+  }
+
+  .travel .banner-btn-txt {
+    font-size: 15px;
+    width: 80%;
+    text-align: right;
+  }
+
+  .order {
+    font-size: 12px;
   }
 
   .about-title {
