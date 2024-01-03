@@ -187,7 +187,7 @@ burger
 .banner-btn-txt {
   display: block;
   /* max-width: 50%; */
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.5);
   /* margin-right: 16px; */
 }
 
@@ -230,7 +230,7 @@ burger
 }
 
 .green-card {
-  background-image: url(../img/a577465e-f5fc-4973-9b18-242ac221267d.jpg);
+  background-image: url(../img/green-card.jpg);
 }
 
 .order {
@@ -359,7 +359,7 @@ burger
   padding: 8px;
   margin: 8px;
   border-radius: 8px;
-  background-image: url(../img/e-polis-bg.png);
+  background-image: url(../img/bg-e-polis.png);
 }
 
 .subbaner {
@@ -515,7 +515,7 @@ burger
 
   .banner-btn-txt-descr {
     margin-top: 12px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.6);
   }
 
   .avtocyvilka {
