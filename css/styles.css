@@ -523,6 +523,10 @@ burger
     height: 200px;
   }
 
+  .avtocyvilka .banner-btn-txt-descr {
+    max-width: 65%;
+  }
+
   .avtocyvilka .banner-btn-txt {
     font-size: 24px;
   }
