@@ -26,6 +26,7 @@ body {
 a {
   display: block;
 }
+
 p {
   color: var(--txt-color);
 }
@@ -40,6 +41,11 @@ p {
   padding: 40px 16px;
   max-width: 960px;
   margin: 0 auto;
+}
+
+.hidden-link {
+  text-decoration: none;
+  color: inherit;
 }
 
 /* Header */
@@ -293,7 +299,7 @@ burger
 
 .how-to-use-list-item {
   padding: 8px;
-  background-color: var(--secondary-bg);
+  background-color: var(--accent-color);
   border: 1px solid var(--primary-bg);
   border-radius: 8px;
   margin: 8px;
@@ -302,14 +308,16 @@ burger
 .how-to-use-num {
   font-size: 22px;
   font-weight: 600;
-  padding: 16px;
+  padding: 12px 18px;
+  margin-left: 16px;
+  margin-right: 16px;
   border-radius: 100%;
   background-color: #fff;
-  margin-right: 16px;
 }
 
 .how-to-use-txt {
   font-size: 18px;
+  color: #fff;
 }
 
 .ad-ins-heading {
