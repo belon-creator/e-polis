@@ -463,8 +463,9 @@ burger
 
 .accordion-header {
   cursor: pointer;
-  background-color: var(--secondary-bg);
-  padding: 6px;
+  background-color: var(--accent-color);
+  color: #f5f4fa;
+  padding: 8px;
   margin: 0;
 }
 

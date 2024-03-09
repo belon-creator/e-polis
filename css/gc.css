@@ -1,3 +1,7 @@
+body {
+  background-image: url(../img/bg-e-polis.png);
+}
+
 .descr-heading {
   font-size: 26px;
 }
