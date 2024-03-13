@@ -1,0 +1,45 @@
+body {
+  background-image: url(../img/bg-e-polis.png);
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+p {
+  line-height: 20px;
+}
+
+.advantages-list-item,
+.exclusion-list-item {
+  margin: 8px;
+}
+
+.table {
+  margin: 0 auto;
+}
+
+.t-data {
+  margin: 0;
+  padding: 8px;
+  border: 1px solid black;
+}
+
+.frame {
+  background-color: var(--secondary-bg);
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  box-shadow: 2px 2px 8px -1px rgba(43, 43, 197, 0.8);
+  -webkit-box-shadow: 2px 2px 8px -1px rgba(43, 43, 197, 0.8);
+  -moz-box-shadow: 2px 2px 8px -1px rgba(43, 43, 197, 0.8);
+}
+
+.form {
+  text-align: center;
+}
+
+.red-txt {
+  color: red;
+}
