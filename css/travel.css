@@ -8,6 +8,9 @@ body {
   box-sizing: border-box;
 }
 
+.travel-page {
+  width: 90%;
+}
 /* Контейнер */
 .container {
   max-width: 960px;
@@ -42,7 +45,7 @@ ul {
 }
 
 /* Пункти списків */
-ul li {
+.travel-list-item {
   margin-bottom: 10px;
   padding: 5px;
   border: 1px solid #ddd;
