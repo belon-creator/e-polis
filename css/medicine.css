@@ -11,9 +11,40 @@ p {
   line-height: 20px;
 }
 
+img {
+  max-width: 100%;
+}
+
+section {
+  padding-bottom: 16px;
+  padding-top: 16px;
+}
+
+.container {
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-right: 16px;
+  padding-left: 16px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.med-banner {
+  padding-top: 0;
+}
+
+.descr-txt {
+  text-align: center;
+  font-weight: bold;
+}
+
 .advantages-list-item,
 .exclusion-list-item {
   margin: 8px;
+}
+
+.pogram-descr-item {
+  font-weight: bold;
+  margin-top: 20px;
 }
 
 .table {
