@@ -13,3 +13,8 @@ ul {
 li {
   margin-bottom: 12px;
 }
+
+.fr {
+  border-radius: 8px;
+  box-shadow: 4px 3px 2px 1px rgba(115, 93, 214, 0.75);
+}
