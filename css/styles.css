@@ -498,6 +498,13 @@ burger
   text-align: center;
 }
 
+/* PAGES */
+
+.fr {
+  border-radius: 8px;
+  box-shadow: 1px 4px 3px 1px rgba(115, 93, 214, 0.75);
+}
+
 /* Медіазапит для пристроїв з меншими екранами, наприклад, мобільних телефонів */
 @media (max-width: 768px) {
   .container {
