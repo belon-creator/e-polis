@@ -1,0 +1,38 @@
+.hdr-descr {
+  text-align: center;
+  font-weight: bold;
+}
+
+.contacts .container {
+  border: 1px solid #c0c0c0;
+  border-radius: 8px;
+  box-shadow: 4px 4px 5px 0px rgba(138, 126, 126, 0.75);
+  -webkit-box-shadow: 4px 4px 5px 0px rgba(138, 126, 126, 0.75);
+  -moz-box-shadow: 4px 4px 5px 0px rgba(138, 126, 126, 0.75);
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.link-on-accent-bg {
+  margin-top: 16px;
+  padding-bottom: 16px;
+  color: var(--secondary-bg);
+  font-style: italic;
+  font-weight: bold;
+}
+
+.about-item {
+  border-radius: 8px;
+  margin: 8px;
+  text-align: center;
+  padding: 28px 8px 0px 8px;
+  background-color: #fff;
+  border: 1px solid var(--primary-bg);
+  box-shadow: 2px 2px 3px 0px rgba(98, 113, 255, 0.5);
+}
+
+.ancor-links {
+  padding: 8px;
+  border-radius: 16px;
+  box-shadow: 2px 2px 3px 0px rgba(98, 113, 255, 0.5);
+}
