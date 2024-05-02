@@ -190,9 +190,9 @@ burger
 
 .banner-btn:hover {
   transition-duration: 250ms;
-  box-shadow: 4px 4px 5px 0px rgba(138, 126, 126, 0.75);
-  -webkit-box-shadow: 4px 4px 5px 0px rgba(138, 126, 126, 0.75);
-  -moz-box-shadow: 4px 4px 5px 0px rgba(138, 126, 126, 0.75);
+  box-shadow: 4px 4px 5px 0px rgba(98, 113, 255, 0.5);
+  -webkit-box-shadow: 4px 4px 5px 0px rgba(98, 113, 255, 0.5);
+  -moz-box-shadow: 4px 4px 5px 0px rgba(98, 113, 255, 0.5);
 }
 
 .banner-btn-txt {
@@ -280,12 +280,13 @@ burger
 
 .about-list-item {
   border-radius: 8px;
-  width: 232px;
+  width: calc(50% - 16px);
   margin-right: 8px;
-  padding: 28px 8px 0px 8px;
+  margin-bottom: 8px;
+  padding: 28px;
   background-color: #fff;
   border: 1px solid var(--primary-bg);
-  box-shadow: 2px 2px 3px 0px rgba(138, 126, 126, 0.75);
+  box-shadow: 2px 2px 3px 0px rgba(98, 113, 255, 0.5);
 }
 
 .about-icon {
@@ -338,9 +339,9 @@ burger
   min-width: 200px;
   max-width: 340px;
   border: 1px solid var(--primary-bg);
-  box-shadow: 4px 4px 5px 0px rgba(138, 126, 126, 0.75);
-  -webkit-box-shadow: 4px 4px 5px 0px rgba(138, 126, 126, 0.75);
-  -moz-box-shadow: 4px 4px 5px 0px rgba(138, 126, 126, 0.75);
+  box-shadow: 4px 4px 5px 0px rgba(98, 113, 255, 0.5);
+  -webkit-box-shadow: 4px 4px 5px 0px rgba(98, 113, 255, 0.5);
+  -moz-box-shadow: 4px 4px 5px 0px rgba(98, 113, 255, 0.5);
   border-radius: 8px;
   margin: 8px;
   padding: 28px 8px 0px 8px;
@@ -422,7 +423,7 @@ burger
   justify-content: center;
   padding: 24px 32px;
   width: 80%;
-  box-shadow: 4px 4px 5px 0px rgba(138, 126, 126, 0.75);
+  box-shadow: 4px 4px 5px 0px rgba(98, 113, 255, 0.5);
   border-radius: 8px;
   margin: 32px auto 46px;
 }
@@ -585,8 +586,8 @@ burger
   }
 
   .about-list-item {
-    width: 48%;
-    margin-right: 4px;
+    width: 100%;
+    padding: 16px;
     margin-bottom: 8px;
   }
 

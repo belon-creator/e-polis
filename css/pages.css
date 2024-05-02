@@ -6,9 +6,9 @@
 .contacts .container {
   border: 1px solid #c0c0c0;
   border-radius: 8px;
-  box-shadow: 4px 4px 5px 0px rgba(138, 126, 126, 0.75);
-  -webkit-box-shadow: 4px 4px 5px 0px rgba(138, 126, 126, 0.75);
-  -moz-box-shadow: 4px 4px 5px 0px rgba(138, 126, 126, 0.75);
+  box-shadow: 4px 4px 5px 0px rgba(98, 113, 255, 0.5);;
+  -webkit-box-shadow: 4px 4px 5px 0px rgba(98, 113, 255, 0.5);;
+  -moz-box-shadow: 4px 4px 5px 0px rgba(98, 113, 255, 0.5);;
   padding-top: 16px;
   padding-bottom: 16px;
 }
