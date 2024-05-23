@@ -177,6 +177,9 @@ burger
   background-position: 0 0;
   position: relative;
   background-repeat: no-repeat;
+  box-shadow: 2px 2px 3px 0px rgba(98, 113, 255, 0.5);
+  -webkit-box-shadow: 2px 2px 3px 0px rgba(98, 113, 255, 0.5);
+  -moz-box-shadow: 2px 2px 3px 0px rgba(98, 113, 255, 0.5);
 }
 
 .banner-btn:hover .order {
@@ -206,6 +209,22 @@ burger
   font-size: 12px;
   /* max-width: 50%; */
   margin-top: 16px;
+}
+
+.discount-txt {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 24px;
+  color: var(--accent-color);
+}
+
+.discount-txt-international {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 20px;
+  color: var(--accent-color);
+  background-color: rgba(255, 255, 255, 0.7);
+  backdrop-filter: var(--secondary-bg);
 }
 
 .avtocyvilka {
@@ -241,7 +260,7 @@ burger
 }
 
 .green-card {
-  background-image: url(../img/green-card.jpg);
+  background-image: url(../img/gc-new-logo.png);
 }
 
 .order {
@@ -534,12 +553,28 @@ burger
   }
 
   .banner-btn-txt {
-    font-size: 20px;
+    font-size: 18px;
+  }
+
+  .green-card .banner-btn-txt {
+    width: 60%;
+  }
+
+  .green-card {
+    background-position: top;
+    background-size: contain;
+  }
+
+  .travel {
+    background-position: left;
   }
 
   .banner-btn-txt-descr {
     margin-top: 12px;
     background-color: rgba(255, 255, 255, 0.6);
+  }
+  .travel .banner-btn-txt-descr {
+    width: 70%;
   }
 
   .avtocyvilka {
@@ -562,11 +597,19 @@ burger
     margin: 4px;
   }
 
-  .travel .banner-btn-txt {
+  .discount-txt {
+    font-size: 18px;
+  }
+
+  .discount-txt-international {
+    font-size: 16px;
+  }
+
+  /* .travel .banner-btn-txt {
     font-size: 16px;
     width: 80%;
     text-align: right;
-  }
+  } */
 
   .order {
     font-size: 12px;
