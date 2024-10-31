@@ -357,8 +357,8 @@ burger
 }
 
 .additional-ins-list-item {
-  min-width: 200px;
-  max-width: 340px;
+  min-width: 340px;
+  max-width: 400px;
   border: 1px solid var(--primary-bg);
   box-shadow: 4px 4px 5px 0px rgba(98, 113, 255, 0.5);
   -webkit-box-shadow: 4px 4px 5px 0px rgba(98, 113, 255, 0.5);
