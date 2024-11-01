@@ -359,7 +359,7 @@ burger
 .additional-ins-list-item {
   min-width: 340px;
   max-width: 400px;
-  border: 1px solid var(--primary-bg);
+  border: 1px solid var(--primary-bg);  
   box-shadow: 4px 4px 5px 0px rgba(98, 113, 255, 0.5);
   -webkit-box-shadow: 4px 4px 5px 0px rgba(98, 113, 255, 0.5);
   -moz-box-shadow: 4px 4px 5px 0px rgba(98, 113, 255, 0.5);
@@ -480,12 +480,13 @@ burger
 
 .accordion-item {
   margin: 5px;
-
   box-shadow: 2px 5px 8px 0px rgba(48, 46, 46, 0.75);
   -webkit-box-shadow: 2px 5px 8px 0px rgba(48, 46, 46, 0.75);
   -moz-box-shadow: 2px 5px 8px 0px rgba(48, 46, 46, 0.75);
   border-radius: 8px;
+  overflow: hidden;
   background-color: #fff;
+  
 }
 
 .accordion-header {
@@ -494,6 +495,9 @@ burger
   color: #f5f4fa;
   padding: 8px;
   margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .accordion-content {
