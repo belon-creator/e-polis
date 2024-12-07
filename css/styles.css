@@ -52,6 +52,7 @@ img {
 .hidden-link {
   text-decoration: none;
   color: inherit;
+  display: inline;
 }
 
 /* Header */
