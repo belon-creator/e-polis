@@ -205,8 +205,9 @@ burger
 .banner-btn-txt {
   display: block;
   /* max-width: 50%; */
-  background-color: rgba(255, 255, 255, 0.5);
-  /* margin-right: 16px; */
+  background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
 }
 
 .banner-btn-txt-descr {
@@ -233,12 +234,14 @@ burger
 
 .avtocyvilka {
   width: 100%;
+  padding: 60px;
   background-image: url(../img/3129573.jpg);
+  background-position: 60px center;
   height: 220px;
   border: 1px solid #b3b2b2;
   display: flex;
   align-items: end;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-direction: column;
 }
 
@@ -248,6 +251,8 @@ burger
   margin: 8px;
   box-sizing: border-box;
   border: 1px solid #b3b2b2;
+  background-position: 10px center;
+
 }
 
 .banner-btn-txt-container {
@@ -581,6 +586,8 @@ burger
   .banner-btn-txt-descr {
     margin-top: 12px;
     background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
   }
   .travel .banner-btn-txt-descr {
     width: 70%;
@@ -588,12 +595,15 @@ burger
 
   .avtocyvilka {
     width: 100%;
+    padding: 8px;
     height: 200px;
+    background-position: 2px center;
+
   }
 
-  .avtocyvilka .banner-btn-txt-descr {
+  /* .avtocyvilka .banner-btn-txt-descr {
     max-width: 65%;
-  }
+  } */
 
   .avtocyvilka .banner-btn-txt {
     font-size: 24px;
@@ -604,6 +614,8 @@ burger
     width: calc(50% - 8px);
     height: 200px;
     margin: 4px;
+    background-position: 1px center;
+
   }
 
   .discount-txt {
