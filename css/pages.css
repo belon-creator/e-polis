@@ -36,3 +36,22 @@
   border-radius: 16px;
   box-shadow: 2px 2px 3px 0px rgba(98, 113, 255, 0.5);
 }
+
+.epolicy2025img{
+  width: 480px;
+}
+
+.epolicy2025img-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .epolicy2025img{
+    width: 100%;
+  }
+
+  .epolicy2025img-container{
+flex-direction: column;  }
+}
