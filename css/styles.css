@@ -546,7 +546,7 @@ burger
 }
 
 /* Медіазапит для пристроїв з меншими екранами, наприклад, мобільних телефонів */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .container {
     padding: 20px 8px;
     max-width: 100%;
@@ -614,7 +614,7 @@ burger
     height: 200px;
     margin: 4px;
     background-position: 1px center;
-
+    padding: 8px;
   }
 
   .discount-txt {
@@ -625,11 +625,9 @@ burger
     font-size: 16px;
   }
 
-  /* .travel .banner-btn-txt {
-    font-size: 16px;
-    width: 80%;
-    text-align: right;
-  } */
+  .banner-btn-txt-container {
+    margin: 0;
+  }
 
   .order {
     font-size: 12px;
