@@ -35,6 +35,26 @@
   padding: 8px;
   border-radius: 16px;
   box-shadow: 2px 2px 3px 0px rgba(98, 113, 255, 0.5);
+
+  position: relative; /* Для відносного позиціонування псевдоелемента */
+  text-decoration: none; /* Вимикаємо стандартне підкреслення */
+  color: #000; /* Колір тексту */
+}
+
+.ancor-links::after {
+  content: ""; /* Додаємо псевдоелемент */
+  position: absolute;
+  left: 50%; /* Початкова позиція — центр */
+  bottom: 0; /* Розташування під текстом */
+  width: 0; /* Початкова ширина лінії */
+  height: 2px; /* Товщина підкреслення */
+  background-color: rgba(98, 113, 255, 0.5); /* Колір підкреслення */
+  transition: all 0.3s ease; /* Додаємо плавність переходу */
+}
+
+.ancor-links:hover::after {
+  width: 100%; /* Підкреслення стає повної ширини */
+  left: 0; /* Починається зліва */
 }
 
 .epolicy2025img {
