@@ -6,9 +6,9 @@
 .contacts .container {
   border: 1px solid #c0c0c0;
   border-radius: 8px;
-  box-shadow: 4px 4px 5px 0px rgba(98, 113, 255, 0.5);;
-  -webkit-box-shadow: 4px 4px 5px 0px rgba(98, 113, 255, 0.5);;
-  -moz-box-shadow: 4px 4px 5px 0px rgba(98, 113, 255, 0.5);;
+  box-shadow: 4px 4px 5px 0px rgba(98, 113, 255, 0.5);
+  -webkit-box-shadow: 4px 4px 5px 0px rgba(98, 113, 255, 0.5);
+  -moz-box-shadow: 4px 4px 5px 0px rgba(98, 113, 255, 0.5);
   padding-top: 16px;
   padding-bottom: 16px;
 }
@@ -37,21 +37,39 @@
   box-shadow: 2px 2px 3px 0px rgba(98, 113, 255, 0.5);
 }
 
-.epolicy2025img{
+.epolicy2025img {
   width: 480px;
 }
 
-.epolicy2025img-container{
+.epolicy2025img-container {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+.contact-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--txt-color);
+  font-size: 18px;
+}
+
+.contact-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.contacts-logo{
+  margin-right: 16px;
+}
+
 @media (max-width: 768px) {
-  .epolicy2025img{
+  .epolicy2025img {
     width: 100%;
   }
 
-  .epolicy2025img-container{
-flex-direction: column;  }
+  .epolicy2025img-container {
+    flex-direction: column;
+  }
 }
