@@ -170,7 +170,7 @@ burger
   cursor: pointer;
   padding: 8px;
   border-radius: 5px;
-  background-color: #fff;
+  background-color: #b2c3fc;
   color: var(--txt-color);
   font-size: 32px;
   font-family: Arial, Helvetica, sans-serif;
@@ -183,7 +183,7 @@ burger
   background-repeat: no-repeat;
   box-shadow: 2px 2px 3px 0px rgba(98, 113, 255, 0.5);
   -webkit-box-shadow: 2px 2px 3px 0px rgba(98, 113, 255, 0.5);
-  -moz-box-shadow: 2px 2px 3px 0px rgba(98, 113, 255, 0.5);
+  -moz-box-shadow: 2px 2px 3px 0px rgba(98, 113, 255, 0.5); 
 }
 
 .banner-btn:hover .order {
@@ -214,6 +214,9 @@ burger
   font-size: 12px;
   /* max-width: 50%; */
   margin-top: 16px;
+  background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
 }
 
 .discount-txt {
@@ -221,6 +224,9 @@ burger
   font-weight: bold;
   font-size: 24px;
   color: var(--accent-color);
+  background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
 }
 
 .discount-txt-international {
@@ -228,15 +234,17 @@ burger
   font-weight: bold;
   font-size: 20px;
   color: var(--accent-color);
-  background-color: rgba(255, 255, 255, 0.7);
-  backdrop-filter: var(--secondary-bg);
+  background-color: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.6);
+  border-radius: 8px;  backdrop-filter: var(--secondary-bg);
 }
 
 .avtocyvilka {
   width: 100%;
   padding: 60px;
-  background-image: url(../img/3129573.jpg);
-  background-position: 60px center;
+  background-image: url(../img/Bymycar-rafiki.png), url(../img/rb_542.png);
+  background-repeat: no-repeat, repeat;
+  background-position: 60px center, top center;
   height: 220px;
   border: 1px solid #b3b2b2;
   display: flex;
@@ -265,11 +273,17 @@ burger
 }
 
 .travel {
-  background-image: url(../img/undraw_Travel_booking_re_6umu.png);
+  background-image: url(../img/undraw_Travel_booking_re_6umu-removebg-preview.png),
+  url(../img/rb_542.png);
+  background-repeat: no-repeat, repeat;
+  background-position: 10px center, top center;
 }
 
 .green-card {
-  background-image: url(../img/gc-changed.png);
+  background-image: url(../img/gc-changed-removebg-preview.png),
+  url(../img/rb_542.png);
+  background-repeat: no-repeat, repeat;
+  background-position: 10px center, top center;
 }
 
 .order {
