@@ -44,6 +44,7 @@
     <link rel="stylesheet" href="../css/styles.css" />
     <link rel="stylesheet" href="../css/cyvilka.css" />
     <link rel="stylesheet" href="../css/pages.css" />
+    <link rel="stylesheet" href="../css/modal.css">
 
     <link
       rel="shortcut icon"
@@ -469,7 +470,23 @@
             </li>
           </ul>
 
-         
+          <button style="font-size: 18px;" class="cta-btn" data-action="open-modal">Відкрити калькулятор автоцивілки</button>
+          <div class="backdrop js-backdrop">
+            <div class="modal">
+              <h2>Modal window</h2>
+              <iframe
+            class="fr"
+            src="https://e-polis-desktop.polis.ua/uk/osago"
+            frameborder="0"
+            width="100%"
+            height="680px"
+            >Розрахунок вартості</iframe
+          >
+              <button type="button" class="button" data-action="close-modal">
+                х
+              </button>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -645,5 +662,6 @@
 
     <script type="module" src="../js/index.js"></script>
     <script type="module" src="../js/burger.js"></script>
+    <script type="module" src="../js/modal.js"></script>
   </body>
 </html>
