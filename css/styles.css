@@ -242,7 +242,7 @@ burger
 .avtocyvilka {
   width: 100%;
   padding: 60px;
-  background-image: url(../img/Bymycar-rafiki.webp), url(../img/rb_542.webp);
+  background-image: url(../img/Bymycar-rafiki.png), url(../img/rb_542.webp);
   background-repeat: no-repeat, repeat;
   background-position: 60px center, top center;
   height: 220px;
