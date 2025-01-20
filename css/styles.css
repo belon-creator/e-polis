@@ -242,7 +242,7 @@ burger
 .avtocyvilka {
   width: 100%;
   padding: 60px;
-  background-image: url(../img/Bymycar-rafiki.png), url(../img/rb_542.png);
+  background-image: url(../img/Bymycar-rafiki.webp), url(../img/rb_542.webp);
   background-repeat: no-repeat, repeat;
   background-position: 60px center, top center;
   height: 220px;
@@ -273,15 +273,15 @@ burger
 }
 
 .travel {
-  background-image: url(../img/undraw_Travel_booking_re_6umu-removebg-preview.png),
+  background-image: url(../img/undraw_Travel_booking_re_6umu-removebg-preview.webp),
   url(../img/rb_542.png);
   background-repeat: no-repeat, repeat;
   background-position: 10px center, top center;
 }
 
 .green-card {
-  background-image: url(../img/gc-changed-removebg-preview.png),
-  url(../img/rb_542.png);
+  background-image: url(../img/gc-changed-removebg-preview.webp),
+  url(../img/rb_542.webp);
   background-repeat: no-repeat, repeat;
   background-position: 10px center, top center;
 }
