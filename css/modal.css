@@ -26,9 +26,14 @@ body.show-modal .modal {
   transition: opacity 200ms ease-in-out, visibility 200ms ease-in-out;
 }
 
+/* анімація */
 .open-frame-btn {
+  display: block;
+  position: relative;
   margin-right: auto;
   margin-left: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
   cursor: pointer;
   border: none;
   border-radius: 8px;
@@ -36,9 +41,37 @@ body.show-modal .modal {
   color: var(--secondary-bg);
   background-color: var(--accent-color);
   font-weight: bold;
+  font-size: 18px;
   box-shadow: 4px 4px 5px 0px rgba(98, 113, 255, 0.5);
-
+  overflow: hidden;
 }
+
+.open-frame-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(120deg, rgba(255, 255, 255, 0) 30%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0) 70%);
+}
+
+@keyframes auto-shine {
+  0%, 85% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+.open-frame-btn::before {
+  animation: auto-shine 0.8s ease-in-out infinite;
+  animation-duration: 3s; /* Інтервал між бликами – 5 секунд */
+}
+
+
+/* fdg */
 
 .modal {
   /* padding: 16px; */

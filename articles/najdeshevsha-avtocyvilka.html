@@ -8,20 +8,20 @@
       name="description"
       content="В пошуках найдешевшої автоцивілки багато водіїв ризикують отримати не лише ефемерну економію, але й суттєві проблеми в разі ДТП. Чому? На перший погляд, різниця в ціні може здатися незначною, але насправді вона може критися в суттєвих відмінностях в умовах страхування."
     />
-    <meta property="og:image" content="https://e-polis.net.ua/banner.png">
+    <meta property="og:image" content="https://e-polis.net.ua/banner.png" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://www.e-polis.net.ua/" />
     <meta
       property="og:description"
       content="В пошуках найдешевшої автоцивілки багато водіїв ризикують отримати не лише ефемерну економію, але й суттєві проблеми в разі ДТП. Чому? На перший погляд, різниця в ціні може здатися незначною, але насправді вона може критися в суттєвих відмінностях в умовах страхування."
     />
-    
 
     <link rel="stylesheet" href="../css/styles.css" />
     <link rel="stylesheet" href="../css/documents-to-oscpv.css" />
     <link rel="stylesheet" href="../css/cyvilka.css" />
-    <link rel="stylesheet" href="../css/vartist.css">
+    <link rel="stylesheet" href="../css/vartist.css" />
     <link rel="stylesheet" href="../css/pages.css" />
+    <link rel="stylesheet" href="../css/modal.css" />
 
     <link
       rel="shortcut icon"
@@ -32,14 +32,14 @@
     <script>
       (function (w, d, s, l, i) {
         w[l] = w[l] || [];
-        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
         var f = d.getElementsByTagName(s)[0],
           j = d.createElement(s),
-          dl = l != "dataLayer" ? "&l=" + l : "";
+          dl = l != 'dataLayer' ? '&l=' + l : '';
         j.async = true;
-        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
         f.parentNode.insertBefore(j, f);
-      })(window, document, "script", "dataLayer", "GTM-MBW4467X");
+      })(window, document, 'script', 'dataLayer', 'GTM-MBW4467X');
     </script>
     <!-- End Google Tag Manager -->
   </head>
@@ -151,23 +151,51 @@
       <div class="container">
         <h1>Найдешевша автоцивілка в Україні онлайн</h1>
 
-        
-          
-          <iframe
+        <button class="open-frame-btn" data-action="open-modal">
+          Відкрити калькулятор автоцивілки
+        </button>
+
+        <div class="backdrop js-backdrop">
+          <div class="modal">
+            <iframe
+              class="fr"
+              src="https://e-polis-desktop.polis.ua/uk/osago"
+              frameborder="0"
+              width="100%"
+              height="680px"
+              >Розрахунок вартості</iframe
+            >
+            <button
+              type="button"
+              class="button"
+              data-action="close-modal"
+            ></button>
+          </div>
+        </div>
+        <!-- <iframe
             class="fr"
             src="https://e-polis-desktop.polis.ua/uk/osago"
             frameborder="0"
             width="100%"
             height="680px"
             >Розрахунок вартості</iframe
-          >
-        
+          > -->
+
         <p>
-          Шукаєте, де оформити автоцивілку недорого? Наш онлайн-сервіс пропонує швидке та зручне оформлення ОСЦПВ за вигідними цінами. Ми працюємо з надійними страховими компаніями, що дозволяє нам підібрати для вас найдешевший поліс автоцивілки в Україні. Оформлення займає лише декілька хвилин, і ви зможете отримати електронний поліс на свою пошту без необхідності візиту до страхової компанії.
+          Шукаєте, де оформити автоцивілку недорого? Наш онлайн-сервіс пропонує
+          швидке та зручне оформлення ОСЦПВ за вигідними цінами. Ми працюємо з
+          надійними страховими компаніями, що дозволяє нам підібрати для вас
+          найдешевший поліс автоцивілки в Україні. Оформлення займає лише
+          декілька хвилин, і ви зможете отримати електронний поліс на свою пошту
+          без необхідності візиту до страхової компанії.
         </p>
         <img src="../img/docs.webp" alt="документи" />
-        <p>Оформлення автоцивілки онлайн – це зручний спосіб отримати страховку без переплат та зайвих клопотів. Завдяки нашому сервісу ви можете оформити автоцивілку недорого. Обирайте найдешевшу автоцивілку, оформляйте поліс без черг та отримуйте спокій на дорозі.</p>
-
+        <p>
+          Оформлення автоцивілки онлайн – це зручний спосіб отримати страховку
+          без переплат та зайвих клопотів. Завдяки нашому сервісу ви можете
+          оформити автоцивілку недорого. Обирайте найдешевшу автоцивілку,
+          оформляйте поліс без черг та отримуйте спокій на дорозі.
+        </p>
       </div>
     </section>
 
@@ -179,11 +207,11 @@
         <ul class="list">
           <li class="how-to-use-list-item how-to-use-txt-container">
             <div class="how-to-use-txt-container">
-              <h3 class="how-to-use-txt">
-                Низька вартість автоцивілки
-              </h3>
+              <h3 class="how-to-use-txt">Низька вартість автоцивілки</h3>
               <p class="how-to-use-descr">
-                Ми аналізуємо пропозиції від провідних страхових компаній, щоб ви отримали найвигіднішу автоцивілку. Порівняйте ціни та оберіть найдешевшу пропозицію на ринку.
+                Ми аналізуємо пропозиції від провідних страхових компаній, щоб
+                ви отримали найвигіднішу автоцивілку. Порівняйте ціни та оберіть
+                найдешевшу пропозицію на ринку.
               </p>
             </div>
           </li>
@@ -193,27 +221,29 @@
                 Зручне онлайн оформлення страховки на авто.
               </h3>
               <p class="how-to-use-descr">
-                Оформлення автоцивілки онлайн економить ваш час та кошти. Введіть дані, оберіть пропозицію, сплатіть онлайн – і вже за декілька хвилин ви отримаєте поліс на електронну пошту.
+                Оформлення автоцивілки онлайн економить ваш час та кошти.
+                Введіть дані, оберіть пропозицію, сплатіть онлайн – і вже за
+                декілька хвилин ви отримаєте поліс на електронну пошту.
               </p>
             </div>
           </li>
           <li class="how-to-use-list-item">
             <div class="how-to-use-txt-container">
-              <h3 class="how-to-use-txt">
-                Доступність 24/7
-              </h3>
+              <h3 class="how-to-use-txt">Доступність 24/7</h3>
               <p class="how-to-use-descr">
-                Оформляйте ОСЦПВ у будь-який час доби. Наш сервіс працює цілодобово, тому ви можете оформити поліс тоді, коли вам це зручно.
+                Оформляйте ОСЦПВ у будь-який час доби. Наш сервіс працює
+                цілодобово, тому ви можете оформити поліс тоді, коли вам це
+                зручно.
               </p>
             </div>
           </li>
           <li class="how-to-use-list-item">
             <div class="how-to-use-txt-container">
-              <h3 class="how-to-use-txt">
-                Знижки та акції
-              </h3>
+              <h3 class="how-to-use-txt">Знижки та акції</h3>
               <p class="how-to-use-descr">
-                Ми регулярно пропонуємо знижки, які допомагають вам оформти автоцивілку недорого.              </p>
+                Ми регулярно пропонуємо знижки, які допомагають вам оформти
+                автоцивілку недорого.
+              </p>
             </div>
           </li>
         </ul>
@@ -223,7 +253,7 @@
     <section>
       <div class="container">
         <h2 class="descr-heading">Як знайти оптимальну автоцивілку?</h2>
-        
+
         <ul class="list">
           <li class="how-to-use-list-item">
             <div class="how-to-use-txt-container">
@@ -288,7 +318,6 @@
         </ul>
       </div>
     </section>
-    
 
     <footer class="ftr">
       <nav class="hdr-nav ftr-nav">
@@ -378,5 +407,6 @@
 
     <script type="module" src="../js/index.js"></script>
     <script type="module" src="../js/burger.js"></script>
+    <script type="module" src="../js/modal.js"></script>
   </body>
 </html>
