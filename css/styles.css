@@ -55,6 +55,39 @@ img {
   display: inline;
 }
 
+/*  */
+.for-sell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.banner-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); /* Напівпрозорий чорний оверлей */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  z-index: 10;
+}
+
+.banner .container {
+  pointer-events: none; /* Робить усі елементи неклікабельними */
+  filter: blur(2px); /* Додає легкий ефект розмиття */
+}
+/*  */
+
 /* Header */
 .hdr {
   background-color: rgba(91, 91, 238, 0.8);
@@ -162,6 +195,7 @@ burger
 
 .banner {
   background-color: var(--secondary-bg);
+  position: relative; /* ДЛЯ ОВЕРЛЕЯ НА ПРОДАЖ */
 }
 
 .banner-btn {
@@ -170,7 +204,7 @@ burger
   cursor: pointer;
   padding: 8px;
   border-radius: 5px;
-  background-color: #b2c3fc; /* сезон */  
+  background-color: #b2c3fc; /* сезон */
   color: var(--txt-color);
   font-size: 32px;
   font-family: Arial, Helvetica, sans-serif;
@@ -183,7 +217,7 @@ burger
   background-repeat: no-repeat;
   box-shadow: 2px 2px 3px 0px rgba(98, 113, 255, 0.5);
   -webkit-box-shadow: 2px 2px 3px 0px rgba(98, 113, 255, 0.5);
-  -moz-box-shadow: 2px 2px 3px 0px rgba(98, 113, 255, 0.5); 
+  -moz-box-shadow: 2px 2px 3px 0px rgba(98, 113, 255, 0.5);
 }
 
 .banner-btn:hover .order {
@@ -206,8 +240,8 @@ burger
   display: block;
   /* max-width: 50%; */
   background-color: rgba(255, 255, 255, 0.6);
-    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.6);
-    border-radius: 8px;
+  box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.6);
+  border-radius: 8px;
 }
 
 .banner-btn-txt-descr {
@@ -215,8 +249,8 @@ burger
   /* max-width: 50%; */
   margin-top: 16px;
   background-color: rgba(255, 255, 255, 0.6);
-    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.6);
-    border-radius: 8px;
+  box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.6);
+  border-radius: 8px;
 }
 
 .discount-txt {
@@ -225,8 +259,8 @@ burger
   font-size: 24px;
   color: var(--accent-color);
   background-color: rgba(255, 255, 255, 0.6);
-    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.6);
-    border-radius: 8px;
+  box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.6);
+  border-radius: 8px;
 }
 
 .discount-txt-international {
@@ -236,7 +270,8 @@ burger
   color: var(--accent-color);
   background-color: rgba(255, 255, 255, 0.6);
   box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.6);
-  border-radius: 8px;  backdrop-filter: var(--secondary-bg);
+  border-radius: 8px;
+  backdrop-filter: var(--secondary-bg);
 }
 
 .avtocyvilka {
@@ -260,7 +295,6 @@ burger
   box-sizing: border-box;
   border: 1px solid #b3b2b2;
   background-position: 10px center;
-
 }
 
 .banner-btn-txt-container {
@@ -274,14 +308,14 @@ burger
 
 .travel {
   background-image: url(../img/undraw_Travel_booking_re_6umu-removebg-preview.webp),
-  url(../img/rb_542.png);
+    url(../img/rb_542.png);
   background-repeat: no-repeat, repeat;
   background-position: 10px center, top center;
 }
 
 .green-card {
   background-image: url(../img/gc-changed-removebg-preview.webp),
-  url(../img/rb_542.webp);
+    url(../img/rb_542.webp);
   background-repeat: no-repeat, repeat;
   background-position: 10px center, top center;
 }
@@ -380,7 +414,7 @@ burger
 .additional-ins-list-item {
   min-width: 340px;
   max-width: 400px;
-  border: 1px solid var(--primary-bg);  
+  border: 1px solid var(--primary-bg);
   box-shadow: 4px 4px 5px 0px rgba(98, 113, 255, 0.5);
   -webkit-box-shadow: 4px 4px 5px 0px rgba(98, 113, 255, 0.5);
   -moz-box-shadow: 4px 4px 5px 0px rgba(98, 113, 255, 0.5);
@@ -507,7 +541,6 @@ burger
   border-radius: 8px;
   overflow: hidden;
   background-color: #fff;
-  
 }
 
 .accordion-header {
@@ -585,7 +618,8 @@ burger
   }
 
   .green-card .banner-btn-txt {
-    font-size: 20px;  }
+    font-size: 20px;
+  }
 
   .green-card {
     background-position: top;
@@ -611,7 +645,6 @@ burger
     padding: 8px;
     height: 200px;
     background-position: 2px center;
-
   }
 
   /* .avtocyvilka .banner-btn-txt-descr {
