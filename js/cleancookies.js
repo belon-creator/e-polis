@@ -1,5 +1,5 @@
 (function () {
-    let inactivityTime = 30 * 60 * 1000; // 30 хвилин у мілісекундах
+    let inactivityTime = 30 * 60 * 1000; 
     let timeout;
   
     // Функція очищення всіх кукі

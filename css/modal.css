@@ -71,8 +71,8 @@ body.show-modal .modal {
 
 @media screen and (max-width: 768px) {
   .pgs-banner-to-frame-open {
-    height: 480px; /* Зменшена висота для мобільних */
-    background-image: url(../img/mob-pgs-banner.png); /* Фонове зображення для мобільної версії */
+    height: 100vh; /* Зменшена висота для мобільних */
+    background-image: url(../img/new-mob-b.png); /* Фонове зображення для мобільної версії */
   }
 
   .pgs-banner-to-frame-open h1 {

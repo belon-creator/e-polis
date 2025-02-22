@@ -199,16 +199,30 @@
 
     <main>
       <section>
-        <div class="container">
+        <div class="pgs-banner-to-frame-open">
           <h1 class="descr-heading">Онлайн страховка на авто</h1>
-          <iframe
-            class="fr"
-            src="https://e-polis-desktop.polis.ua/uk/osago"
-            frameborder="0"
-            width="100%"
-            height="680px"
-            >Розрахунок вартості</iframe
-          >
+          <!-- <img src="../img/fb-banner.webp" alt="найдешевша автоцивілка" width="100%">  -->
+          <button class="open-frame-btn" data-action="open-modal">
+            Відкрити калькулятор автоцивілки
+          </button>
+
+          <div class="backdrop js-backdrop">
+            <div class="modal">
+              <iframe
+                class="fr"
+                src="https://e-polis-desktop.polis.ua/uk/osago"
+                frameborder="0"
+                width="100%"
+                height="680px"
+                >Розрахунок вартості</iframe
+              >
+              <button
+                type="button"
+                class="button"
+                data-action="close-modal"
+              ></button>
+            </div>
+          </div>
         </div>
       </section>
 
