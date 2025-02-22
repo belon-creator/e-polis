@@ -72,7 +72,7 @@ body.show-modal .modal {
 @media screen and (max-width: 768px) {
   .pgs-banner-to-frame-open {
     height: 100vh; /* Зменшена висота для мобільних */
-    background-image: url(../img/new-mob-b.png); /* Фонове зображення для мобільної версії */
+    background-image: url(../img/mob-banner375-2.png); /* Фонове зображення для мобільної версії */
   }
 
   .pgs-banner-to-frame-open h1 {
