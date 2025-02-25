@@ -116,7 +116,7 @@ body.show-modal .modal {
   background-color: var(--accent-color);
   font-weight: bold;
   font-size: 18px;
-  box-shadow: 4px 4px 5px 0px rgba(98, 113, 255, 0.5);
+  box-shadow: 4px 6px 8px 0px rgba(13, 22, 99, 0.5);
   overflow: hidden;
 }
 

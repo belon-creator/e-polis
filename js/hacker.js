@@ -1,6 +1,6 @@
 document.addEventListener('contextmenu', event => {
   event.preventDefault();
-  alert('хацкєр? 😑');
+  // alert('хацкєр? 😑');
 });
 
 document.addEventListener('keydown', event => {
