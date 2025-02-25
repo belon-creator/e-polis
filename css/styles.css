@@ -274,6 +274,15 @@ burger
   backdrop-filter: var(--secondary-bg);
 }
 
+/* seasons 
+url(../img/rb_542.webp) зима
+url(../img/spring-bg-removebg-preview.png); весна
+url(../img/summer-bg-removebg-preview.png); літо
+url(../img/autumn-removebg-preview.png); осінь
+
+.travel .green-card теж міняємо
+*/
+
 .avtocyvilka {
   width: 100%;
   padding: 60px;
