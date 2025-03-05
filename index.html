@@ -145,46 +145,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </header>
 
     <main class="main-page">
-      <section style="background-color: rgba(252, 34, 18, 0.8);">
-        <div class="container for-sell" >
-          <p style="font-size: 24px; text-align: center; margin: 0; padding: 0;">Сайт продається! Пишіть для уточнення деталей 😊</p>
-          <ul class="list nav-list">
-            <li class="nav-list-item">
-              <a class="nav-link"
-                target="_blank"
-                rel="noopener noreferrer"
-                href="mailto:support@e-polis.net.ua"
-                ><img class="contact-logo" src="./img/free-icon-gmail-732200.png" alt="пошта" width="32px"></a
-              >
-            </li>
-            <li class="nav-list-item">
-              <a class="nav-link" href="https://t.me/epolis_ua" target="_blank"
-              rel="noopener noreferrer"><img class="contact-logo" src="./img/free-icon-telegram-2111646.png" alt="телеграм" width="32px"></a>
-            </li>
-            <li class="nav-list-item">
-              <a class="nav-link" href="viber://chat/?number=%2B380679170849">
-                <img class="contact-logo" src="./img/free-icon-viber-3670059.png" alt="вайбер " width="32px"></a>
-            </li>
-            <li class="nav-list-item">
-              <a class="nav-link" href="https://wa.me/380679170849">
-                <img class="contact-logo" src="./img/whatsapp.svg" alt="whatsapp " width="32px"></a>
-            </li>
-            <li class="nav-list-item">
-              <a class="nav-link" href="https://www.facebook.com/profile.php?id=61553156706888">
-                <img class="contact-logo" src="./img/free-icon-facebook-145802.png" alt="facebook " width="32px"></a>
-            </li>
-            <li class="nav-list-item">
-              <a class="nav-link" href="https://instagram.com/epolis_info?igshid=NzZlODBkYWE4Ng==
-              ">
-                <img class="contact-logo" src="./img/free-icon-instagram-2111463.png" alt="facebook " width="32px"></a>
-            </li>
-          </ul>
-        </div>
-      </section>
+     
       
       <section class="banner">
-        <div class="banner-overlay">Сервіс тимчасово недоступний <br> Для оформлення поліса напишіть нам, <br> гарантуємо найкращі умови 😊</div>
-
         <div class="container">
           <a class="banner-btn avtocyvilka" target="_blank" href="https://e-polis.polis.ua/uk/osago">
             <div class="banner-btn-txt-container">              
@@ -212,8 +175,29 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
              <span class="order">Розрахувати <img src="./img/arrow-right.png" width="16px" alt="зелена карта"></span>
             </div>            
             </a>
-        </div>
-      
+        </div>  
+        
+        <!-- form -->
+         <!-- Форма замовлення -->
+<div class="overlay"></div>
+<div class="form-container">
+    <button class="close-form">✖</button>
+    <h2 id="selected-product"></h2>
+    
+    <form id="insurance-form">
+        <label for="name">Ім'я:</label>
+        <input type="text" id="name" required>
+
+        <label for="phone">Номер телефону:</label>
+        <input type="text" id="phone" placeholder="+380" required>
+
+        <label for="comment">Коментар:</label>
+        <textarea id="comment" placeholder="Додайте свої побажання"></textarea>
+
+        <button class="submit-btn" type="submit" disabled>Відправити</button>
+    </form>
+</div>
+<!-- End form -->
 
       </section>
 
@@ -1028,10 +1012,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
       <p class="copy">&copy;  Всі права захищені</p>
     </footer>
-   
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
     <script type="module" src="./js/index.js"></script>
+    <script type="module" src="./js/sendform.js"></script>
     <script type="module" src="./js/burger.js"></script>
     <script type="module" src="./js/cleancookies.js"></script>
-    <script type="module" src="./js/hacker.js"></script>
+    <!-- <script type="module" src="./js/hacker.js"></script> -->
   </body>
 </html>
