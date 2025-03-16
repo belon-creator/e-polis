@@ -26,7 +26,7 @@ body.show-modal .modal {
   transition: opacity 200ms ease-in-out, visibility 200ms ease-in-out;
 }
 
-.pgs-container-to-frame-open{
+.pgs-container-to-frame-open {
   padding: 8px;
 }
 
@@ -76,7 +76,7 @@ body.show-modal .modal {
   }
 
   .pgs-banner-to-frame-open h1 {
-    font-size: 20px;
+    font-size: 24px;
   }
 
   /* .pgs-banner-to-frame-open .btn {
@@ -96,7 +96,7 @@ body.show-modal .modal {
   }
 }
 
-.to-top-btn{
+.to-top-btn {
   display: block;
   position: relative;
   margin: 50px auto;
@@ -105,11 +105,10 @@ body.show-modal .modal {
   cursor: pointer;
   border: none;
   border-radius: 28px;
-  padding: 22px; 
+  padding: 22px;
   font-weight: bold;
   font-size: 20px;
   box-shadow: 4px 6px 8px 0px rgba(13, 22, 99, 0.5);
-
 }
 
 /* анімація */
@@ -127,9 +126,11 @@ body.show-modal .modal {
   cursor: pointer;
   border: none;
   border-radius: 28px;
-  padding: 22px; 
+  padding: 22px;
+  padding-left: 70px;
+  padding-right: 70px;
   color: var(--secondary-bg);
-  background-color: var(--accent-color);
+  background-color: #0c00b1;
   font-weight: bold;
   font-size: 18px;
   box-shadow: 4px 6px 8px 0px rgba(13, 22, 99, 0.5);
