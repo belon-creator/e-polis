@@ -1,9 +1,24 @@
 document.addEventListener('contextmenu', event => {
   event.preventDefault();
-  showHackerModal();
 });
 
 document.addEventListener('keydown', event => {
+  if (
+    event.ctrlKey &&
+    event.shiftKey &&
+    (event.key === 'C' ||
+      event.key === 'c' ||
+      event.key === 'J' ||
+      event.key === 'j' ||
+      event.key === 'о' ||
+      event.key === 'О' ||
+      event.key === 'с' ||
+      event.key === 'С')
+  ) {
+    event.preventDefault();
+    showHackerModal();
+  }
+
   if (
     (event.ctrlKey && (event.key === 'u' || event.key === 'U')) ||
     event.key === 'F12' ||
