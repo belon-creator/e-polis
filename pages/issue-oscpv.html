@@ -28,7 +28,7 @@
       content="Електронний поліс автоцивілки онлайн. Отримайте електронний поліс автоцивілки просто та швидко."
     />
     <meta property="og:image" content="https://e-polis.net.ua/banner.png">
-
+    <base href="/">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -200,31 +200,45 @@
 
     <main>
       <section>
-        <div class="pgs-banner-to-frame-open">
-          <h1 class="descr-heading">Онлайн страховка на авто</h1>
-          <!-- <img src="../img/fb-banner.webp" alt="найдешевша автоцивілка" width="100%">  -->
-          <button class="open-frame-btn" data-action="open-modal">
-            Відкрити калькулятор автоцивілки
-          </button>
-
-          <div class="backdrop js-backdrop">
-            <div class="modal">
-              <iframe
-                class="fr"
-                src="https://e-polis-desktop.polis.ua/uk/osago"
-                frameborder="0"
-                width="100%"
-                height="680px"
-                >Розрахунок вартості</iframe
-              >
-              <button
-                type="button"
-                class="button"
-                data-action="close-modal"
-              ></button>
+        <div class="container">
+          <div class="pgs-banner-to-frame-open">
+            <h1 class="descr-heading">Онлайн страховка на авто</h1>
+            <!-- <img src="../img/fb-banner.webp" alt="найдешевша автоцивілка" width="100%">  -->
+            <button class="open-frame-btn" data-action="open-modal">
+              Відкрити калькулятор автоцивілки
+            </button>
+  
+            <div class="backdrop js-backdrop">
+              <div class="modal">
+                <iframe
+                  class="fr"
+                  src="https://e-polis-desktop.polis.ua/uk/osago"
+                  frameborder="0"
+                  width="100%"
+                  height="680px"
+                  >Розрахунок вартості</iframe
+                >
+                <button
+                  type="button"
+                  class="button"
+                  data-action="close-modal"
+                ></button>
+              </div>
+            </div>
+  
+            
+          </div>
+  
+          <div class="logos-wrapper">
+            <p class="mtsbu-diia-logos-txt">Миттєва реєстрація поліса в базі МТСБУ і ДІЯ</p>
+  
+            <div class="mtsbu-diia-logos">
+              <img class="gov-logo" src="../img/logo-mtsbu.webp" alt="мтсбу" width="120">
+              <img class="gov-logo" src="../img/logo_Дія.png" alt="дія" width="120">
             </div>
           </div>
         </div>
+        
       </section>
 
       <section>
