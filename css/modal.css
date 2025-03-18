@@ -8,6 +8,12 @@ body.show-modal .modal {
   transform: scale(1);
 }
 
+.close-modsl-btn{
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
 .backdrop {
   display: flex;
   justify-content: center;

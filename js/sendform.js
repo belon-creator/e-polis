@@ -132,24 +132,24 @@ bannerButtons.forEach(button => {
     const productName = this.querySelector('.banner-btn-txt').innerText;
     selectedProduct.innerText = `Оформлення: ${productName}`;
 
-    // Відображення форми
+    
     overlay.style.display = 'block';
     formContainer.style.display = 'block';
   });
 });
 
-// Закриття форми
+
 function closeForm() {
   overlay.style.display = 'none';
   formContainer.style.display = 'none';
-  form.reset(); // Очищуємо поля
-  submitButton.disabled = true; // Робимо кнопку неактивною
+  form.reset(); 
+  submitButton.disabled = true; 
 }
 
 overlay.addEventListener('click', closeForm);
 closeFormButton.addEventListener('click', closeForm);
 
-// Функція для активації кнопки
+
 function toggleSubmitButton() {
   submitButton.disabled = !(nameInput.value.trim() && phoneInput.value.trim());
 }
