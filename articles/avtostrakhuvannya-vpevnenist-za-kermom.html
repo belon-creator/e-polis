@@ -6,7 +6,7 @@
     <meta name="robots" content="index,follow" />
     <meta
       name="description"
-      content="Оформіть електронний поліс автоцивілки онлайн за лічені хвилини! Порівняйте пропозиції від різних страхових компаній, оберіть найвигіднішу та отримайте поліс на email. З нами економити час та гроші просто!"
+      content="Ми розуміємо, наскільки важливо для кожного водія відчувати себе захищеним на дорозі. Тому ми пропонуємо широкий спектр страхових послуг, щоб кожен міг знайти оптимальний варіант страховки на авто."
     />
     <meta
       name="keywords"
@@ -17,18 +17,19 @@
       онлайн страхування"
     />
     <meta name="author" content="e-polis" />
-    <meta
-      property="og:title"
-      content="Автоцивілка онлайн ᐈ Електронний поліс автоцивілки "
-    />
+    <meta property="og:title" content="Що таке автоцивілка?" />
+    <meta property="og:image" content="https://e-polis.net.ua/banner.png" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://www.e-polis.net.ua/" />
     <meta
       property="og:description"
-      content="Електронний поліс автоцивілки онлайн. Отримайте електронний поліс автоцивілки просто та швидко."
+      content="Автоцивілка, відома як Обов'язкове страхування цивільно-правової відповідальності власників транспортних засобів (ОСЦПВ)"
     />
-    <meta property="og:image" content="https://e-polis.net.ua/banner.png">
-    <base href="/">
+    <meta
+      property="og:image"
+      content="https://www.e-polis.net.ua/img/e-polis-logo.svg"
+    />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -38,26 +39,28 @@
     />
     <link rel="stylesheet" href="../css/styles.css" />
     <link rel="stylesheet" href="../css/cyvilka.css" />
-    <link rel="stylesheet" href="../css/modal.css">
+    <link rel="stylesheet" href="../css/pages.css" />
+    <link rel="stylesheet" href="../css/modal.css" />
+
     <link
       rel="shortcut icon"
       href="../img/favicon-e-polis.jpeg"
       type="image/x-icon"
     />
-    <title>Страховка на авто онлайн ⚡ E-polis</title>
+    <title>Автострахування: впевненість за кермом | E-polis</title>
 
     <!-- Google Tag Manager -->
     <script>
       (function (w, d, s, l, i) {
         w[l] = w[l] || [];
-        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
         var f = d.getElementsByTagName(s)[0],
           j = d.createElement(s),
-          dl = l != "dataLayer" ? "&l=" + l : "";
+          dl = l != 'dataLayer' ? '&l=' + l : '';
         j.async = true;
-        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
         f.parentNode.insertBefore(j, f);
-      })(window, document, "script", "dataLayer", "GTM-MBW4467X");
+      })(window, document, 'script', 'dataLayer', 'GTM-MBW4467X');
     </script>
     <!-- End Google Tag Manager -->
 
@@ -73,7 +76,7 @@
         if (!f._fbq) f._fbq = n;
         n.push = n;
         n.loaded = !0;
-        n.version = "2.0";
+        n.version = '2.0';
         n.queue = [];
         t = b.createElement(e);
         t.async = !0;
@@ -83,11 +86,11 @@
       })(
         window,
         document,
-        "script",
-        "https://connect.facebook.net/en_US/fbevents.js"
+        'script',
+        'https://connect.facebook.net/en_US/fbevents.js',
       );
-      fbq("init", "374096575283289");
-      fbq("track", "PageView");
+      fbq('init', '374096575283289');
+      fbq('track', 'PageView');
     </script>
     <noscript
       ><img
@@ -113,7 +116,12 @@
     <header class="hdr">
       <nav class="hdr-nav">
         <a href="https://www.e-polis.net.ua/">
-          <img class="logo" src="../img/e-polis-logo.svg" alt="лого є-поліс" width="80px" />
+          <img
+            class="logo"
+            src="../img/e-polis-logo.svg"
+            alt="лого є-поліс"
+            width="80px"
+          />
         </a>
 
         <div class="menu-toggle">
@@ -201,155 +209,139 @@
     <main>
       <section>
         <div class="container">
-          <div class="pgs-banner-to-frame-open">
-            <h1 class="descr-heading">Онлайн страховка на авто</h1>
-            <!-- <img src="../img/fb-banner.webp" alt="найдешевша автоцивілка" width="100%">  -->
-            <button class="open-frame-btn" data-action="open-modal">
-              Відкрити калькулятор автоцивілки
-            </button>
-  
-            <div class="backdrop js-backdrop">
-              <div class="modal">
-                <iframe
-                  class="fr"
-                  src="https://e-polis-desktop.polis.ua/uk/osago"
-                  frameborder="0"
-                  width="100%"
-                  height="680px"
-                  >Розрахунок вартості</iframe
-                >
-                <button
-                  type="button"
-                  class="button"
-                  data-action="close-modal"
-                ></button>
-              </div>
-            </div>
-  
-            
-          </div>
-  
-          <div class="logos-wrapper">
-            <p class="mtsbu-diia-logos-txt">Миттєва реєстрація поліса в базі МТСБУ і ДІЯ</p>
-  
-            <div class="mtsbu-diia-logos">
-              <img class="gov-logo" src="../img/logo-mtsbu.webp" alt="мтсбу" width="120">
-              <img class="gov-logo" src="../img/logo_Дія.png" alt="дія" width="120">
-            </div>
-          </div>
+          <h1 class="descr-heading">Автострахування: впевненість за кермом</h1>
+          <img src="../img/fb-banner.webp" alt="epolis" />
+          <p>
+            Кожен водій знає це відчуття: свобода відкритої дороги, приємний
+            вітер у вікні та впевненість у кожному маневрі. Але, на жаль, іноді
+            на нашому шляху трапляються непередбачувані ситуації. Дрібні
+            подряпини на парковці, випадкові пошкодження від негоди, а іноді, на
+            жаль, і серйозніші пригоди – все це може стати неприємною
+            несподіванкою для будь-якого автовласника.
+          </p>
+
+          <p>
+            Саме тут на допомогу приходить надійний захист –
+            <a
+              style="display: inline"
+              href="https://e-polis.net.ua/pages/issue-oscpv.html"
+              >страховка на авто</a
+            >. Це не просто формальність чи обов'язковий платіж, а ваш особистий
+            щит від фінансових втрат та зайвого стресу у випадку неприємностей
+            на дорозі.
+          </p>
         </div>
-        
       </section>
 
       <section>
         <div class="container">
-          <p>Однією з головних переваг онлайн-страхування є економія часу та грошей. Ви можете порівняти пропозиції від різних страхових компаній, не виходячи з дому, та обрати найбільш вигідний варіант. Відсутність комісій страхових агентів дозволяє знизити вартість поліса. Крім того, ви можете оформити страховку в будь-який зручний для вас час, навіть уночі.</p>
           <h2 class="descr-heading">
-            З нашим зручним калькулятором ви можете:
+            Чому страховка – це більше, ніж просто поліс?
           </h2>
-          <ul class="list">
-            <li class="questions-list-item">
-              <p class="questions-list-descr">
-                Швидко оформити страховку на авто онлайн
+          <p>
+            Уявіть собі ситуацію: водій випадково зачепив чуже авто на парковці.
+            Без страховки йому доведеться самостійно покривати витрати на
+            ремонт, що може суттєво вдарити по бюджету. Маючи ж оформлений
+            поліс, він можете бути спокійним, адже значну частину фінансової
+            відповідальності візьме на себе страхова компанія.
+          </p>
+          <p>
+            Але переваги страховки на авто не обмежуються лише відшкодуванням
+            збитків у випадку ДТП. Залежно від обраного вами пакету, ви можете
+            отримати:
+          </p>
+          <ul>
+            <li>
+              <p>
+                Захист від викрадення: Компенсація вартості автомобіля у разі
+                його викрадення.
               </p>
             </li>
-            <li class="questions-list-item">
-              <p class="questions-list-descr">
-                Порівняти пропозиції від різних страхових компаній
+            <li>
+              <p>
+                Відшкодування збитків від стихійних лих: Град, буревій, повінь –
+                природні катаклізми можуть завдати значної шкоди вашому авто.
+                Страховка допоможе покрити витрати на відновлення.
               </p>
             </li>
-            <li class="questions-list-item">
-              <p class="questions-list-descr">Заощадити час та гроші, отримати поліс на email</p>
-            </li>
-            <li class="questions-list-item">
-              <p class="questions-list-descr">Завжди мати поліс під рукою в електронному вигляді</p>
+            <li>
+              <p>
+                Додаткові послуги: Евакуація з місця ДТП, технічна допомога на
+                дорозі, юридична підтримка – все це може бути включено у ваш
+                страховий поліс, забезпечуючи вам спокій та впевненість у
+                будь-якій ситуації.
+              </p>
             </li>
           </ul>
         </div>
       </section>
-
-      <section class="how-to-use article">
-        <div class="container">
-          <h2 class="descr-heading">Як оформити страховку на авто онлайн?</h2>
-          <ul class="list how-to-use-list">
-            <li class="how-to-use-list-item">
-              <p class="how-to-use-num">1</p>
-              <div class="how-to-use-txt-container">
-                <p class="how-to-use-txt">Введіть необхідні дані в форму для розрахунку</p>
-                <p class="how-to-use-descr">Введіть в форму калькулятора номерний знак автомобіля, або параметри <br> Рекомендуємо проводити розрахунок за номерним знаком оскільки деякі страхові компанії при розрахунку враховують вік автомобіля і Ваш водійський стаж</p>
-              </div>                
-            </li>
-
-            <li class="how-to-use-list-item">
-              <p class="how-to-use-num">2</p>
-              <div class="how-to-use-txt-container">
-                <p class="how-to-use-txt">Оберіть пропозицію страхової компанії</p>
-                <p class="how-to-use-descr">Підберіть компанію за своїми вподобаннями, оберіть варіант франшизи та додаткового покриття</p>
-              </div>
-             
-            </li>
-
-            <li class="how-to-use-list-item">
-              <p class="how-to-use-num">3</p>
-              <div class="how-to-use-txt-container">
-                <p class="how-to-use-txt">Заповніть коротку анкету</p>
-                <p class="how-to-use-descr">В 95% випадків розрахунку за номерним знаком дані автомобіля вже будуть внесені в поліс для Вашої зручності. Вам залишається лише внести особисті дані</p>
-              </div>
-             
-            </li>
-
-            <li class="how-to-use-list-item">
-              <p class="how-to-use-num">4</p>
-              <div class="how-to-use-txt-container">
-                <p class="how-to-use-txt">Сплатіть поліс онлайн і отримайте його на електронну пошту</p>
-              <p class="how-to-use-descr">Сплатіть поліс в декілька кліків і отримайте його в PDF форматі для друку на Вашу електронну адресу</p>
-            </li> 
-          </ul>
-
-          <button class="to-top-btn">
-            Розрахувати вартість
-          </button>
-        </div>
-      </section>
-
-      
 
       <section>
         <div class="container">
-            <h2 class="descr-heading">Зверніть увагу</h2>
-            <ul class="list">
-                <li class="questions-list-item">
-                    
-                    <p class="questions-list-descr">Електронний поліс автоцивілки має таку ж юридичну силу, як і паперовий.</p>
-                    
-                </li>
-                <li class="questions-list-item">
-                
-                    <p class="questions-list-descr">Ви можете перевірити дійсність вашого полісу на сайті МТСБУ.</p>
-                   
-                </li>
-                <li class="questions-list-item">
-                   
-                    <p class="questions-list-descr">Електронний поліс завжди буде у вас під рукою на вашому телефоні або комп'ютері.</p>
-                    
-                <li class="questions-list-item">
-                    
-                    <p class="questions-list-descr">Ви можете легко роздрукувати його при потребі.</p>
-                    
-                </li>
-                <li class="questions-list-item">
-                    
-                    <p class="questions-list-descr">Інформація про ваш поліс зберігається в електронній базі МТСБУ.</p>
-                    
-                </li>
-                
-            </ul>
+          <h2 class="descr-heading">Обираємо страховку з розумом:</h2>
+          <img src="../img/docs.webp" alt="страховка на авто">
+          <p>
+            Сьогодні на ринку представлений широкий вибір страхових продуктів.
+            Щоб обрати оптимальний варіант, який відповідатиме саме вашим
+            потребам та бюджету, варто звернути увагу на кілька ключових
+            факторів:
+          </p>
+          <ul>
+            <li>
+              <p>
+                Тип страхування: Обов'язкове страхування цивільно-правової
+                відповідальності (ОСЦПВ) є обов'язковим для всіх водіїв.
+                Добровільне страхування КАСКО забезпечує більш широкий спектр
+                захисту.
+              </p>
+            </li>
+            <li>
+              <p>
+                Покриття: Визначте, які ризики є для вас найбільш актуальними та
+                оберіть поліс з відповідним покриттям.
+              </p>
+            </li>
+            <li>
+              <p>
+                Франшиза: Сума, яку ви готові сплатити самостійно у випадку
+                страхового випадку. Чим вища франшиза, тим нижча вартість
+                поліса.
+              </p>
+            </li>
+            <li>
+              <p>
+                Репутація страхової компанії: Ознайомтеся з відгуками клієнтів
+                та рейтингами страхових компаній, щоб обрати надійного партнера.
+              </p>
+            </li>
+          </ul>
+
+          <h3>Ваш спокій – наша головна мета:</h3>
+          <p>
+            Ми розуміємо, наскільки важливо для кожного водія відчувати себе
+            захищеним на дорозі. Тому ми пропонуємо широкий спектр страхових
+            послуг, щоб кожен міг знайти оптимальний варіант
+            <a
+              style="display: inline"
+              href="https://e-polis.net.ua/pages/issue-oscpv.html"
+              >страховки на авто</a
+            >. Наші фахівці завжди готові надати вам кваліфіковану консультацію
+            та допомогти з вибором поліса, який забезпечить вам максимальний
+            захист та спокій за кермом.
+          </p>
+          <p>
+            Подбайте про свою безпеку та фінансову стабільність вже сьогодні!
+            Ознайомтеся з нашими пропозиціями щодо страховки на авто та оберіть
+            свій надійний захист на кожному кілометрі вашої подорожі.
+          </p>
         </div>
       </section>
 
       <section class="article partners">
         <div class="container">
-          <h3 class="descr-heading">Наші партнери</h3>
+          <h3 class="descr-heading">
+            Співпрацюємо лише з надійними страховими
+          </h3>
           <ul class="list partner-list">
             <li class="partner-list-item">
               <img
@@ -360,6 +352,14 @@
               />
             </li>
             <li class="partner-list-item">
+                <img
+                  src="../img/companies/pzu.png"
+                  alt="PZU"
+                  loading="lazy"
+                  width="70px"
+                />
+              </li>
+            <li class="partner-list-item">
               <img
                 src="../img/companies/univers.png"
                 alt="Універсальна"
@@ -367,14 +367,14 @@
                 width="120px"
               />
             </li>
-            <li class="partner-list-item">
+            <!-- <li class="partner-list-item">
               <img
                 src="../img/companies/knyazha.png"
                 alt="Княжа"
                 loading="lazy"
                 width="120px"
               />
-            </li>
+            </li> -->
             <li class="partner-list-item">
               <img
                 src="../img/companies/usg.png"
@@ -383,14 +383,6 @@
                 width="120px"
               />
             </li>
-            <!-- <li class="partner-list-item">
-              <img
-                src="../img/companies/tas.png"
-                alt="ТАС"
-                loading="lazy"
-                width="120px"
-              />
-            </li> -->
             <li class="partner-list-item">
               <img
                 src="../img/companies/oranta.png"
@@ -455,14 +447,7 @@
                 width="120px"
               />
             </li>
-            <!-- <li class="partner-list-item">
-              <img
-                src="../img/companies/credo.png"
-                alt="Кредо"
-                loading="lazy"
-                width="120px"
-              />
-            </li> -->
+
             <li class="partner-list-item">
               <img
                 src="../img/companies/esa.png"
@@ -479,14 +464,14 @@
                 width="120px"
               />
             </li> -->
-            <!-- <li class="partner-list-item">
+            <li class="partner-list-item">
               <img
                 src="../img/companies/euroins.png"
                 alt="Євроінс"
                 loading="lazy"
                 width="120px"
               />
-            </li> -->
+            </li>
             <!-- <li class="partner-list-item">
               <img
                 src="../img/companies/guard.png"
@@ -503,14 +488,7 @@
                 width="120px"
               />
             </li>
-            <li class="partner-list-item">
-              <img
-                src="../img/companies/pzu.png"
-                alt="PZU"
-                loading="lazy"
-                width="70px"
-              />
-            </li>
+            
             <!-- <li class="partner-list-item">
               <img
                 src="../img/companies/salamandra.png"
@@ -527,18 +505,9 @@
                 width="120px"
               />
             </li> -->
-          </ul>   
-          
-          <button class="to-top-btn">
-            Розрахувати вартість
-          </button>
-
-          <p style="text-align: left;">Онлайн-страхування – це не лише зручно, але й надійно. Всі електронні поліси реєструються в єдиній базі МТСБУ, що гарантує їх легітимність. Ви можете перевірити дійсність свого поліса на сайті МТСБУ в будь-який момент. Крім того, згідно з ПДР, вам не потрібно друкувати електронний поліс – достатньо мати його в електронному вигляді на вашому смартфоні.</p>
-       
-       <p style="text-align: left;">Процес оформлення онлайн-страховки на авто максимально простий та зручний. Скористайтеся онлайн-калькулятором, щоб швидко розрахувати вартість поліса. Порівняйте пропозиції від різних страхових компаній та оберіть оптимальний варіант. Заповніть необхідну анкету, внісши дані про ваш транспортний засіб та власника. Оплатіть поліс зручним для вас способом та миттєво отримайте електронний документ на email.</p> 
-      </div>
+          </ul>
+        </div>
       </section>
-     
     </main>
 
     <footer class="ftr">
@@ -630,6 +599,5 @@
     <script type="module" src="../js/index.js"></script>
     <script type="module" src="../js/burger.js"></script>
     <script type="module" src="../js/modal.js"></script>
-    <script type="module" src="../js/totopbtn.js"></script>
   </body>
 </html>
