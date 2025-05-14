@@ -37,3 +37,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
   elements.forEach(el => observer.observe(el));
 });
+
+// ==================================
+
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.fade-in-right').forEach(el => {
+    el.classList.add('visible');
+  });
+});

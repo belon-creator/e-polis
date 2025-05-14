@@ -107,6 +107,17 @@ img {
   transform: translateX(0);
 }
 
+.fade-in-right {
+  opacity: 0;
+  transform: translateX(50px);
+  transition: all 0.6s ease-out;
+}
+
+.fade-in-right.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
 .partner-slider {
   overflow: hidden;
   position: relative;
@@ -123,7 +134,6 @@ img {
   list-style: none;
   animation: scroll-left 30s linear infinite;
 }
-
 
 /*  */
 
@@ -330,7 +340,7 @@ url(../img/autumn-removebg-preview.png); осінь
   width: 100%;
   padding: 60px;
   background-image: url(../img/Bymycar-rafiki.png),
-    url(../img/spring-bg-removebg-preview.png);
+  url(../img/summer-bg-removebg-preview.png);
   background-repeat: no-repeat, repeat;
   background-position: 60px center, top center;
   height: 220px;
@@ -361,14 +371,14 @@ url(../img/autumn-removebg-preview.png); осінь
 
 .travel {
   background-image: url(../img/undraw_Travel_booking_re_6umu-removebg-preview.webp),
-    url(../img/spring-bg-removebg-preview.png);
+  url(../img/summer-bg-removebg-preview.png);
   background-repeat: no-repeat, repeat;
   background-position: 10px center, top center;
 }
 
 .green-card {
   background-image: url(../img/gc-changed-removebg-preview.webp),
-    url(../img/spring-bg-removebg-preview.png);
+  url(../img/summer-bg-removebg-preview.png);
   background-repeat: no-repeat, repeat;
   background-position: 10px center, top center;
 }
@@ -546,6 +556,17 @@ END FORM
   margin: 12px;
 }
 
+.oplata-chatynamy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.oplata-chastynamy-img {
+  width: 60%;
+}
 /* 
 ============================================================
  */
@@ -717,7 +738,6 @@ END FORM
   border-radius: 12px;
   overflow: hidden;
   background-color: #fff;
-  
 }
 
 .accordion-header {
@@ -899,6 +919,14 @@ END FORM
   .partner-list-item {
     margin-bottom: 12px;
     padding: 8px;
+  }
+
+  .oplata-chatynamy {
+    flex-direction: column;
+  }
+
+  .oplata-chastynamy-img {
+    width: 100%;
   }
 }
 
