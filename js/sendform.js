@@ -101,7 +101,7 @@ emailjs.init('UnYD9yT3mhsjyhkPo');
 
 document.addEventListener('DOMContentLoaded', function () {
     const form = document.getElementById('insurance-form');
-    const bannerButtons = document.querySelectorAll('.banner-btn');
+    const bannerButtons = document.querySelectorAll('.travel');
     const selectedProduct = document.getElementById('selected-product');
     const overlay = document.querySelector('.overlay');
     const formContainer = document.querySelector('.form-container');
