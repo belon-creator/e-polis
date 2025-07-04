@@ -340,7 +340,7 @@ url(../img/autumn-removebg-preview.png); осінь
   width: 100%;
   padding: 60px;
   background-image: url(../img/Bymycar-rafiki.png),
-  url(../img/summer-bg-removebg-preview.png);
+    url(../img/summer-bg-removebg-preview.png);
   background-repeat: no-repeat, repeat;
   background-position: 60px center, top center;
   height: 220px;
@@ -371,14 +371,14 @@ url(../img/autumn-removebg-preview.png); осінь
 
 .travel {
   background-image: url(../img/undraw_Travel_booking_re_6umu-removebg-preview.webp),
-  url(../img/summer-bg-removebg-preview.png);
+    url(../img/summer-bg-removebg-preview.png);
   background-repeat: no-repeat, repeat;
   background-position: 10px center, top center;
 }
 
 .green-card {
   background-image: url(../img/gc-changed-removebg-preview.webp),
-  url(../img/summer-bg-removebg-preview.png);
+    url(../img/summer-bg-removebg-preview.png);
   background-repeat: no-repeat, repeat;
   background-position: 10px center, top center;
 }
@@ -787,8 +787,12 @@ END FORM
 /* PAGES */
 
 .fr {
+  margin-right: auto;
+  margin-left: auto;
   border-radius: 8px;
   box-shadow: 1px 4px 3px 1px rgba(115, 93, 214, 0.75);
+  width: 100vw;
+  height: 100%;
 }
 
 /* Медіазапит для пристроїв з меншими екранами, наприклад, мобільних телефонів */

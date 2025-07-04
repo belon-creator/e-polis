@@ -31,6 +31,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="../css/modal.css">
     <link rel="stylesheet" href="../css/styles.css" />
     <link rel="stylesheet" href="../css/cyvilka.css">
     <link
@@ -189,20 +190,37 @@
       </nav>
     </header>  
 
-    <main>
-
-        <h1 class="about-title">Як оформити страховку на автомобіль онлайн?</h1>
+    <main>      
      
         <section class="banner">
           <div class="container">
-            <a class="banner-btn avtocyvilka" target="_blank" href="https://e-polis.polis.ua/uk/osago">
-              <div class="banner-btn-txt-container">
-                <span class="banner-btn-txt">Автоцивілка</span> 
-              <span class="banner-btn-txt-descr">Обов'язкове страхування цивільно-правової відповідальності власників транспортних засобів</span> 
-              <span class="order">Розрахувати <img src="../img/arrow-right.png" width="16px" alt="стрілка"></span>
-              </div>              
-            </a>            
-          </div>   
+            <div class="pgs-banner-to-frame-open">
+            <h1 class="descr-heading">Як оформити страховку на автомобіль онлайн?</h1>
+            <!-- <img src="../img/fb-banner.webp" alt="найдешевша автоцивілка" width="100%">  -->
+              
+            </button>
+            <button style="text-decoration: none;" class="open-frame-btn" data-action="open-modal">
+            Оформити автоцивілку
+          </button>
+  
+            <div class="backdrop js-backdrop">
+              <div class="modal">
+                <iframe
+                  class="fr"
+                  src="https://e-polis.ukasko.ua/insurance/osago"
+                  frameborder="0"
+                  
+                  >Розрахунок вартості</iframe
+                >
+                <button
+                  type="button"
+                  class="button close-modsl-btn"
+                  data-action="close-modal"
+                ></button>
+              </div>
+            </div>
+          </div>
+            </div>
         </section>
 
 
@@ -243,22 +261,14 @@
                 <p class="how-to-use-descr">Сплатіть поліс в декілька кліків і отримайте його в PDF форматі для друку на Вашу електронну адресу</p>
               </li> 
             </ul>
+
+            <button class="to-top-btn">
+            Оформити автоцивілку
+          </button>
           </div>
         </section>
 
-        <section>
-          <div class="container">
-            <h2 class="descr-heading">Розрахунок вартості автоцивілки</h2>
-            <iframe
-            class="fr"
-            src="https://e-polis-desktop.polis.ua/uk/osago"
-            frameborder="0"
-            width="100%"
-            height="680px"
-            >Розрахунок вартості</iframe
-          >
-          </div>
-        </section>
+       
 
         <section class="article ins-block">
           <div class="container">    
@@ -408,14 +418,7 @@
                   width="120px"
                 />
               </li>
-              <li class="partner-list-item">
-                <img
-                  src="../img/companies/tas.png"
-                  alt="ТАС"
-                  loading="lazy"
-                  width="120px"
-                />
-              </li>
+             
               <li class="partner-list-item">
                 <img
                   src="../img/companies/oranta.png"
@@ -456,14 +459,14 @@
                   width="120px"
                 />
               </li> -->
-              <!-- <li class="partner-list-item">
+              <li class="partner-list-item">
                 <img
                   src="../img/companies/express.png"
                   alt="Експрес страхування"
                   loading="lazy"
                   width="120px"
                 />
-              </li> -->
+              </li>
               <!-- <li class="partner-list-item">
                 <img
                   src="../img/companies/alfa.png"
@@ -480,14 +483,7 @@
                   width="120px"
                 />
               </li>
-              <li class="partner-list-item">
-                <img
-                  src="../img/companies/credo.png"
-                  alt="Кредо"
-                  loading="lazy"
-                  width="120px"
-                />
-              </li>
+              
               <li class="partner-list-item">
                 <img
                   src="../img/companies/esa.png"
@@ -554,14 +550,9 @@
               </li>
             </ul>
 
-            <a class="banner-btn cta-btn" href="https://e-polis.polis.ua/uk/osago">
-              <img
-                src="../img/free-icon-car-insurance-1743700.png"
-                alt="автоцивілка"
-                width="42px"
-              />
-              <span class="btn-txt">Оформити автоцивілку</span>
-            </a>
+            <button class="to-top-btn">
+            Розрахувати вартість
+          </button>
           </div>
         </section>
       
@@ -685,6 +676,8 @@
   
     <script type="module" src="../js/index.js"></script>
     <script type="module" src="../js/burger.js"></script>
+    <script type="module" src="../js/modal.js"></script>
+    <script type="module" src="../js/totopbtn.js"></script>
   </body>
 </html>
 
