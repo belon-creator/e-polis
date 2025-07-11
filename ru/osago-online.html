@@ -13,23 +13,20 @@
       content="осаго, осаго онлайн, страховка осаго, купить осаго онлайн, полис осаго, оформить осаго, калькулятор осаго, осаго для иностранных авто, автострахование, осаго цена, страховка авто"
     />
 
-    <meta
-      property="og:title"
-      content="ОСАГО онлайн | E-polis"
-    />
+    <meta property="og:title" content="ОСАГО онлайн | E-polis" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://www.e-polis.net.ua/" />
     <meta
       property="og:description"
       content="Рассчитайте стоимость полиса ОСАГО за 1 минуту"
     />
-    <meta property="og:image" content="https://e-polis.net.ua/banner.png">
-
+    <meta property="og:image" content="https://e-polis.net.ua/banner.png" />
 
     <link rel="stylesheet" href="../css/styles.css" />
     <link rel="stylesheet" href="../css/perevirka.css" />
-    <link rel="stylesheet" href="../css/cyvilka.css">
-    
+    <link rel="stylesheet" href="../css/cyvilka.css" />
+    <link rel="stylesheet" href="../css/modal.css" />
+
     <link
       rel="shortcut icon"
       href="../img/favicon-e-polis.jpeg"
@@ -39,14 +36,14 @@
     <script>
       (function (w, d, s, l, i) {
         w[l] = w[l] || [];
-        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
         var f = d.getElementsByTagName(s)[0],
           j = d.createElement(s),
-          dl = l != "dataLayer" ? "&l=" + l : "";
+          dl = l != 'dataLayer' ? '&l=' + l : '';
         j.async = true;
-        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
         f.parentNode.insertBefore(j, f);
-      })(window, document, "script", "dataLayer", "GTM-MBW4467X");
+      })(window, document, 'script', 'dataLayer', 'GTM-MBW4467X');
     </script>
     <!-- End Google Tag Manager -->
   </head>
@@ -155,26 +152,40 @@
     </header>
     <main>
       <section>
-        <div class="container">
-          <h1>
-            Страховка на авто ОСАГО онлайн. 
-          </h1>
+        <div class="pgs-banner-to-frame-open">
+          <h1 class="descr-heading">Страховка на авто | ОСАГО онлайн</h1>
+          <!-- <img src="../img/fb-banner.webp" alt="найдешевша автоцивілка" width="100%">  -->
+          <button class="open-frame-btn" data-action="open-modal">
+            Рассчитать стоимость
+          </button>
 
-          <iframe
-            class="fr"
-            src="https://e-polis-desktop.polis.ua/uk/osago"
-            frameborder="0"
-            width="100%"
-            height="680px"
-            >Розрахунок вартості</iframe
-          >          
+          <div class="backdrop js-backdrop">
+            <div class="modal">
+              <iframe
+                class="fr"
+                src="https://e-polis.ukasko.ua/insurance/osago"
+                frameborder="0"
+                width="100%"
+                height="680px"
+                >Розрахунок вартості</iframe
+              >
+              <button
+                type="button"
+                class="button"
+                data-action="close-modal"
+              ></button>
+            </div>
+          </div>
         </div>
       </section>
 
       <section>
         <div class="container">
           <h2>Калькулятор ОСАГО: Рассчитайте стоимость онлайн</h2>
-          <p>Для вашего удобства мы разработали калькулятор ОСАГО. Просто введите:</p>
+          <p>
+            Для вашего удобства мы разработали калькулятор ОСАГО. Просто
+            введите:
+          </p>
           <ul>
             <li>
               <p>Номера автомобиля</p>
@@ -186,35 +197,61 @@
         </div>
       </section>
 
-      <section >
+      <section>
         <div class="container">
           <h2>Что такое ОСАГО?</h2>
-          <p>ОСАГО (обязательное страхование ответственности владельцев транспортных средств) – это полис, который защищает вас от финансовых затрат в случае ДТП, если вы являетесь виновником. Этот документ обязателен для всех автомобилистов, управляющих транспортными средствами на территории Украины.</p>
+          <p>
+            ОСАГО (обязательное страхование ответственности владельцев
+            транспортных средств) – это полис, который защищает вас от
+            финансовых затрат в случае ДТП, если вы являетесь виновником. Этот
+            документ обязателен для всех автомобилистов, управляющих
+            транспортными средствами на территории Украины.
+          </p>
         </div>
       </section>
 
       <section>
         <div class="container">
-             <h2>Почему стоит оформить ОСАГО онлайн?</h2>
-              <ul class="list">
-                <li class="questions-list-item">
-                  <p class="questions-list-heading questions-list-descr">Быстрота</p>
-                  <p class="questions-list-descr">Получите полис за 5 минут без визита в офис</p>
-                </li>
-                <li class="questions-list-item">
-                  <p class="questions-list-heading questions-list-descr">Удобство</p>
-                  <p class="questions-list-descr">Все этапы оформления проходят онлайн – от расчета до оплаты.</p>
-                </li>
-                <li class="questions-list-item">
-                  <p class="questions-list-heading questions-list-descr">Надежность</p>
-                  <p class="questions-list-descr">Полис моментально поступает на вашу почту, а данные сохраняются в базе МТСБУ.</p>
-                </li>
-                <li class="questions-list-item">
-                  <p class="questions-list-heading questions-list-descr">Гибкость</p>
-                  <p class="questions-list-descr">Возможность выбора полиса на разный срок (на 15 дней, 1 месяц, 3 месяца, 1 год).</p>
-                  <p class="questions-list-descr">Для оформления полиса ОСАГО на короткий период напишите нам</p>
-                </li>
-              </ul>
+          <h2>Почему стоит оформить ОСАГО онлайн?</h2>
+          <ul class="list">
+            <li class="questions-list-item">
+              <p class="questions-list-heading questions-list-descr">
+                Быстрота
+              </p>
+              <p class="questions-list-descr">
+                Получите полис за 5 минут без визита в офис
+              </p>
+            </li>
+            <li class="questions-list-item">
+              <p class="questions-list-heading questions-list-descr">
+                Удобство
+              </p>
+              <p class="questions-list-descr">
+                Все этапы оформления проходят онлайн – от расчета до оплаты.
+              </p>
+            </li>
+            <li class="questions-list-item">
+              <p class="questions-list-heading questions-list-descr">
+                Надежность
+              </p>
+              <p class="questions-list-descr">
+                Полис моментально поступает на вашу почту, а данные сохраняются
+                в базе МТСБУ.
+              </p>
+            </li>
+            <li class="questions-list-item">
+              <p class="questions-list-heading questions-list-descr">
+                Гибкость
+              </p>
+              <p class="questions-list-descr">
+                Возможность выбора полиса на разный срок (на 15 дней, 1 месяц, 3
+                месяца, 1 год).
+              </p>
+              <p class="questions-list-descr">
+                Для оформления полиса ОСАГО на короткий период напишите нам
+              </p>
+            </li>
+          </ul>
         </div>
       </section>
 
@@ -399,8 +436,6 @@
               />
             </li>
           </ul>
-
-         
         </div>
       </section>
 
@@ -409,7 +444,10 @@
           <h2>Как оформить ОСАГО онлайн?</h2>
           <ul>
             <li>
-              <p>Используйте наш калькулятор ОСАГО, указав данные о вашем автомобиле и водителе.</p>
+              <p>
+                Используйте наш калькулятор ОСАГО, указав данные о вашем
+                автомобиле и водителе.
+              </p>
             </li>
             <li>
               <p>Введите информацию о себе и автомобиле.</p>
@@ -517,5 +555,6 @@
 
     <script type="module" src="../js/index.js"></script>
     <script type="module" src="../js/burger.js"></script>
+    <script type="module" src="../js/modal.js"></script>
   </body>
 </html>
