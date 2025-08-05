@@ -1,7 +1,7 @@
 /* Загальні стилі, які залишаються незмінними на всіх пристроях */
 :root {
-  --accent-color: rgba(43, 43, 197, 0.8);
-  --txt-color: #363535;
+  --accent-color: rgba(63, 63, 226, 0.8);
+  --txt-color: #3f3d3d;
   --secondary-bg: #f5f4fa;
   --primary-bg: #e5e5e5;
   --ftr-bg: #c4c4c4;
@@ -65,12 +65,17 @@ img {
   overflow: hidden;
   background-color: var(--accent-color);
   color: white;
-  padding: 12px 16px;
+  padding: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  z-index: 1;
+  z-index: 1000;
   font-size: 14px;
 
   animation: pulse 2s infinite;
+}
+
+.operator img {
+  display: block;
+  width: 100%;
 }
 
 @keyframes pulse {
@@ -142,8 +147,12 @@ img {
   background-color: rgba(91, 91, 238, 0.8);
   min-height: 60px;
   position: relative;
-  box-shadow: 2px 2px 10px 0px rgba(54, 54, 235, 0.8);
+  z-index: 10;
+  box-shadow: 2px 2px 20px 10px rgba(54, 54, 235, 0.8);
+  /* box-shadow: 0 0 60px 20px rgba(54, 54, 235, 0.8); */
+
 }
+
 
 .hdr-nav {
   max-width: 960px;
@@ -513,15 +522,46 @@ END FORM
 }
 
 .about-list-item {
-  border-radius: 8px;
   width: calc(50% - 16px);
   margin-right: 8px;
   margin-bottom: 8px;
-  padding: 28px;
+  box-shadow: 2px 2px 3px 0px rgba(98, 113, 255, 0.5);
+
+}
+
+.about-list-item,
+.additional-ins-list-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
   background-color: #fff;
   border: 1px solid var(--primary-bg);
   box-shadow: 2px 2px 3px 0px rgba(98, 113, 255, 0.5);
+  padding: 28px;
 }
+
+.top-gradient::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 120px; /* змінюй при потребі */
+  background: linear-gradient(
+    to bottom,
+    rgba(173, 216, 230, 0.5),
+    rgba(255, 255, 255, 0)
+  );
+  z-index: 0;
+  pointer-events: none;
+  border-radius: 8px 8px 0 0; /* щоби відповідало формі блоку */
+}
+
+.top-gradient > * {
+  position: relative;
+  z-index: 1;
+}
+
 
 .about-icon {
   display: block;
@@ -622,7 +662,7 @@ END FORM
 
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-between; 
 }
 
 .additional-contact-list {
