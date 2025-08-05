@@ -34,6 +34,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/reviews.css" />
     <link
       rel="shortcut icon"
       href="./img/favicon-e-polis.jpeg"
@@ -420,6 +421,75 @@
           </p>
 
           <img src="./img/fb-banner.webp" alt="автострахування" />
+        </div>
+      </section>
+
+      <section class="epolis-review-section container">
+        <div class="epolis-container">
+          <h2>Відгуки наших клієнтів</h2>
+
+          <div id="epolis-average-rating-container"></div>
+
+          <div id="epolis-reviews-container"></div>
+
+          <button
+            id="epolis-load-more-btn"
+            class="epolis-submit-review-btn"
+            style="
+              width: 100%;
+              padding: 12px;
+              font-size: 16px;
+              background-color: #3d5afe;
+              color: white;
+              border: none;
+              border-radius: 8px;
+              cursor: pointer;
+              transition: background-color 0.2s ease;
+            "
+          >
+            Показати більше
+          </button>
+
+          <h3 class="epolis-form-title">Залиште свій відгук</h3>
+
+          <form id="epolis-review-form">
+            <input
+              type="text"
+              id="epolis-reviewer-name"
+              name="reviewer_name"
+              placeholder="Ваше ім'я"
+              required
+            />
+            <textarea
+              id="epolis-review-comment"
+              name="message"
+              placeholder="Ваш відгук"
+              required
+            ></textarea>
+
+            <div
+              class="epolis-rating-stars-container"
+              id="epolis-rating-stars-container"
+            >
+              <span data-value="1">★</span>
+              <span data-value="2">★</span>
+              <span data-value="3">★</span>
+              <span data-value="4">★</span>
+              <span data-value="5">★</span>
+            </div>
+            <input
+              type="hidden"
+              id="epolis-review-rating-input"
+              name="rating"
+              required
+            />
+
+            <button type="submit" id="epolis-submit-review-btn">
+              Відправити відгук
+            </button>
+          </form>
+
+          <div id="epolis-form-message" class="epolis-form-message"></div>
         </div>
       </section>
 
@@ -1962,9 +2032,17 @@
 
     <script
       type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
     ></script>
-
+    <script type="text/javascript">
+      (function () {
+        // Замість 'YOUR_PUBLIC_KEY' вставте свій публічний ключ EmailJS
+        emailjs.init({
+          publicKey: 'UnYD9yT3mhsjyhkPo',
+        });
+      })();
+    </script>
+    <script src="./js/reviews.js"></script>
     <script type="module" src="./js/index.js"></script>
     <!-- <script type="module" src="./js/sendform.js"></script> -->
     <script type="module" src="./js/burger.js"></script>
