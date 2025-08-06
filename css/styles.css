@@ -149,11 +149,11 @@ img {
 
 /* Header */
 .hdr {
-  background-color: rgba(91, 91, 238, 0.8);
+  background: linear-gradient(90deg, #007bff, #0056b3);
   min-height: 60px;
   position: relative;
   z-index: 10;
-  box-shadow: 2px 2px 20px 10px rgba(54, 54, 235, 0.8);
+  box-shadow: 2px 2px 20px 10px rgba(44, 44, 255, 0.8);
   /* box-shadow: 0 0 60px 20px rgba(54, 54, 235, 0.8); */
 }
 
@@ -617,9 +617,18 @@ END FORM
   align-items: center;
 }
 
-.how-to-use-list-item {
+/* .how-to-use-list-item {
   padding: 8px;
   background-color: var(--accent-color);
+  border: 1px solid var(--primary-bg);
+  border-radius: 8px;
+  margin: 8px;
+} */
+
+.how-to-use-list-item {
+  padding: 8px;
+  background: linear-gradient(90deg, #007bff, #0056b3);
+  color: #ffffff;
   border: 1px solid var(--primary-bg);
   border-radius: 8px;
   margin: 8px;
@@ -730,8 +739,8 @@ END FORM
 }
 
 .cta-btn {
-  background-color: rgba(106, 106, 247, 0.8);
-  color: var(--txt-color);
+  background: linear-gradient(90deg, #007bff, #0056b3);
+  color: var(--primary-bg);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -783,7 +792,7 @@ END FORM
 
 .accordion-header {
   cursor: pointer;
-  background-color: var(--accent-color);
+  background: linear-gradient(90deg, #007bff, #0056b3);
   color: #f5f4fa;
   padding: 8px;
   margin: 0;
@@ -802,7 +811,7 @@ END FORM
 /* Footer */
 .ftr {
   min-height: 250px;
-  background-color: var(--ftr-bg);
+  background: linear-gradient(90deg, #007bff, #0056b3);
 
   padding: 20px;
 }

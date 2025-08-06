@@ -107,7 +107,8 @@ body.show-modal .modal {
   display: block;
   position: relative;
   margin: 50px auto;
-  background-color: #ffb006;
+  background: linear-gradient(90deg, #ffc940, #ffb006);
+
   width: 80%;
   cursor: pointer;
   border: none;
