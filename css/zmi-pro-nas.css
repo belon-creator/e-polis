@@ -11,6 +11,9 @@
     position: relative;
     padding-top: 20px;
     padding-bottom: 50px;
+
+    margin-left: 0;
+    margin-right: 0;
 }
 
 /* Переконаємось, що swiper-wrapper - це флекс-контейнер */
