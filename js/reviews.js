@@ -18,6 +18,24 @@ document.addEventListener('DOMContentLoaded', () => {
   const loadMoreBtn = document.getElementById('epolis-load-more-btn');
 
   let reviewsData = [
+        {
+      name: 'Анна',
+      rating: 5,
+      comment:
+        'Оформила зелену карту, все добре, дякую',
+    },
+     {
+      name: 'Ольга',
+      rating: 5,
+      comment:
+        'Підтримка на вищому рівні, детально все пояснили, дякую спеціалісту Ірині',
+    },
+    {
+      name: 'Володимир',
+      rating: 5,
+      comment:
+        'Раніше користувався іншим сайтом, але було не зручно постійно шукати промокоди. Тут ціна ще нижча без них',
+    },
      {
       name: 'Ігор',
       rating: 5,
