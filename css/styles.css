@@ -63,7 +63,7 @@ img {
 .operator {
   position: fixed;
   bottom: 20px;
-  right: 20px;
+  right: 30px;
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -153,8 +153,7 @@ img {
   min-height: 60px;
   position: relative;
   z-index: 10;
-  box-shadow: 2px 2px 20px 10px rgba(44, 44, 255, 0.8);
-  /* box-shadow: 0 0 60px 20px rgba(54, 54, 235, 0.8); */
+  box-shadow: 0 2px 5px rgba(0, 86, 179, 0.3); /* rgba(R, G, B, alpha) - alpha контролює прозорість */
 }
 
 .hdr-nav {
@@ -173,6 +172,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   z-index: 23;
+  align-items: flex-start;
 }
 
 .contact-logo {
@@ -204,15 +204,15 @@ burger
   position: fixed;
   top: 0;
   right: -300px; /* Initially hidden to the right */
-  width: 100px;
-  height: 580px;
-  margin-top: 60px;
-  padding: 20px;
+  width: 56px;
+  height: 570px;
+  margin-top: 68px;
+  padding: 2px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   flex-wrap: wrap;
-  background-color: #bab6e0;
+  background: linear-gradient(to left, #7bb9f0 0%, #66ebf1 100%);
   border-radius: 8px;
   transition: 0.4s;
 }
@@ -237,11 +237,11 @@ burger
 .nav-link {
   z-index: 10;
   display: block;
-  padding: 8px;
+  padding: 4px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 4px;
+  margin: 2px;
 }
 
 /* Main page */
@@ -269,7 +269,7 @@ burger
   cursor: pointer;
   padding: 8px;
   border-radius: 5px;
-  background-color: #55e950; /* сезон */
+  background-color: #55e950; /* season */
   color: var(--txt-color);
   font-size: 32px;
   font-family: Arial, Helvetica, sans-serif;
@@ -811,7 +811,7 @@ END FORM
 /* Footer */
 .ftr {
   min-height: 250px;
-  background: linear-gradient(90deg, #007bff, #0056b3);
+  background: var(--ftr-bg);
 
   padding: 20px;
 }
@@ -856,6 +856,10 @@ END FORM
 
   .hdr {
     height: 40px;
+  }
+
+  .menu{
+    align-items: center;
   }
 
   .hdr-nav {
