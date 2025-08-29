@@ -381,6 +381,13 @@ url(../img/autumn-removebg-preview.png); осінь
   margin-right: 8px;
 }
 
+.kasko-bg-banner{
+   background-image: url(../img/19280-removebg-preview.png),
+    url(../img/summer-bg-removebg-preview.png);
+  background-repeat: no-repeat, repeat;
+  background-position: 10px center, top center;
+}
+
 .travel {
   background-image: url(../img/undraw_Travel_booking_re_6umu-removebg-preview.webp),
     url(../img/summer-bg-removebg-preview.png);
