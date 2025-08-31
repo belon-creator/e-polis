@@ -7,6 +7,7 @@
   --ftr-bg: #c4c4c4;
 }
 
+
 html {
   box-sizing: border-box;
 }
@@ -269,7 +270,7 @@ burger
   cursor: pointer;
   padding: 8px;
   border-radius: 5px;
-  background-color: #55e950; /* season */
+  background-color: #f5b049; /* season */
   color: var(--txt-color);
   font-size: 32px;
   font-family: Arial, Helvetica, sans-serif;
@@ -352,7 +353,7 @@ url(../img/autumn-removebg-preview.png); осінь
   width: 100%;
   padding: 60px;
   background-image: url(../img/Bymycar-rafiki.png),
-    url(../img/summer-bg-removebg-preview.png);
+    url(../img/autumn-removebg-preview.png);
   background-repeat: no-repeat, repeat;
   background-position: 60px center, top center;
   height: 220px;
@@ -381,23 +382,23 @@ url(../img/autumn-removebg-preview.png); осінь
   margin-right: 8px;
 }
 
-.kasko-bg-banner{
-   background-image: url(../img/19280-removebg-preview.png),
-    url(../img/summer-bg-removebg-preview.png);
+.kasko-bg-banner {
+  background-image: url(../img/19280-removebg-preview.png),
+    url(../img/autumn-removebg-preview.png);
   background-repeat: no-repeat, repeat;
   background-position: 10px center, top center;
 }
 
 .travel {
   background-image: url(../img/undraw_Travel_booking_re_6umu-removebg-preview.webp),
-    url(../img/summer-bg-removebg-preview.png);
+    url(../img/autumn-removebg-preview.png);
   background-repeat: no-repeat, repeat;
   background-position: 10px center, top center;
 }
 
 .green-card {
   background-image: url(../img/gc-changed-removebg-preview.webp),
-    url(../img/summer-bg-removebg-preview.png);
+    url(../img/autumn-removebg-preview.png);
   background-repeat: no-repeat, repeat;
   background-position: 10px center, top center;
 }
@@ -865,7 +866,7 @@ END FORM
     height: 40px;
   }
 
-  .menu{
+  .menu {
     align-items: center;
   }
 
