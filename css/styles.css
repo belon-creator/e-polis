@@ -352,7 +352,7 @@ url(../img/autumn-removebg-preview.png); осінь
 .avtocyvilka {
   width: 100%;
   padding: 60px;
-  background-image: url(../img/Bymycar-rafiki.png),
+  background-image: url(../img/car-with-man-removebg-preview.png),
     url(../img/autumn-removebg-preview.png);
   background-repeat: no-repeat, repeat;
   background-position: 60px center, top center;
@@ -383,21 +383,21 @@ url(../img/autumn-removebg-preview.png); осінь
 }
 
 .kasko-bg-banner {
-  background-image: url(../img/19280-removebg-preview.png),
+  background-image: url(../img/img-for-kasko-remove-bg.png),
     url(../img/autumn-removebg-preview.png);
   background-repeat: no-repeat, repeat;
   background-position: 10px center, top center;
 }
 
 .travel {
-  background-image: url(../img/undraw_Travel_booking_re_6umu-removebg-preview.webp),
+  background-image: url(../img/tourist.png),
     url(../img/autumn-removebg-preview.png);
   background-repeat: no-repeat, repeat;
   background-position: 10px center, top center;
 }
 
 .green-card {
-  background-image: url(../img/gc-changed-removebg-preview.webp),
+  background-image: url(../img/test-img-for-gc.png),
     url(../img/autumn-removebg-preview.png);
   background-repeat: no-repeat, repeat;
   background-position: 10px center, top center;

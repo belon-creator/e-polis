@@ -80,6 +80,8 @@ body.show-modal .modal {
   .pgs-banner-to-frame-open {
     height: 100vh; /* Зменшена висота для мобільних */
     background-image: url(../img/mob-banner375-2.png); /* Фонове зображення для мобільної версії */
+    background-size: contain;
+    background-repeat: no-repeat;
   }
 
   .pgs-banner-to-frame-open h1 {
@@ -94,7 +96,7 @@ body.show-modal .modal {
 
 @media screen and (min-width: 769px) {
   .pgs-banner-to-frame-open {
-    background-image: url(../img/web-pgs-banner.png); /* Фонове зображення для десктопної версії */
+    background-image: url(../img/web-pgs-banner-new.webp); /* Фонове зображення для десктопної версії */
   }
 
   .pgs-banner-to-frame-open h1 {
