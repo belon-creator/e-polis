@@ -40,9 +40,10 @@ body {
 
 .questions-list-descr {
   text-align: left;
-  color: #d4d4d4;
+  color: #e0dfdf;
   font-style: italic;
   line-height: 20px;
+  font-weight: bold;
 }
 
 @media (max-width: 768px) {
@@ -60,3 +61,6 @@ body {
     text-align: center;
   }
 }
+
+
+

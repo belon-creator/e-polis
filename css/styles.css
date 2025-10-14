@@ -29,6 +29,11 @@ main {
   overflow-x: hidden;
 }
 
+h1,
+h2 {
+  text-align: center;
+}
+
 a {
   display: block;
 }
@@ -342,9 +347,9 @@ burger
 
 /* seasons 
 url(../img/rb_542.webp) зима
-url(../img/spring-bg-removebg-preview.png); весна
-url(../img/summer-bg-removebg-preview.png); літо
-url(../img/autumn-removebg-preview.png); осінь
+url(../img/spring-bg-removebg-preview.webp); весна
+url(../img/summer-bg-removebg-preview.webp); літо
+url(../img/autumn-removebg-preview.webp); осінь
 
 .travel .green-card теж міняємо
 */
@@ -352,8 +357,8 @@ url(../img/autumn-removebg-preview.png); осінь
 .avtocyvilka {
   width: 100%;
   padding: 60px;
-  background-image: url(../img/car-with-man-removebg-preview.png),
-    url(../img/autumn-removebg-preview.png);
+  background-image: url(../img/car-with-man-removebg-preview.webp),
+    url(../img/autumn-removebg-preview.webp);
   background-repeat: no-repeat, repeat;
   background-position: 60px center, top center;
   height: 220px;
@@ -383,22 +388,22 @@ url(../img/autumn-removebg-preview.png); осінь
 }
 
 .kasko-bg-banner {
-  background-image: url(../img/img-for-kasko-remove-bg.png),
-    url(../img/autumn-removebg-preview.png);
+  background-image: url(../img/img-for-kasko-remove-bg.webp),
+    url(../img/autumn-removebg-preview.webp);
   background-repeat: no-repeat, repeat;
   background-position: 10px center, top center;
 }
 
 .travel {
-  background-image: url(../img/tourist.png),
-    url(../img/autumn-removebg-preview.png);
+  background-image: url(../img/tourist.webp),
+    url(../img/autumn-removebg-preview.webp);
   background-repeat: no-repeat, repeat;
   background-position: 10px center, top center;
 }
 
 .green-card {
-  background-image: url(../img/test-img-for-gc.png),
-    url(../img/autumn-removebg-preview.png);
+  background-image: url(../img/test-img-for-gc.webp),
+    url(../img/autumn-removebg-preview.webp);
   background-repeat: no-repeat, repeat;
   background-position: 10px center, top center;
 }
