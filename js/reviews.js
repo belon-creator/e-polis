@@ -18,6 +18,12 @@ document.addEventListener('DOMContentLoaded', () => {
   const loadMoreBtn = document.getElementById('epolis-load-more-btn');
 
   let reviewsData = [
+     {
+      name: 'Костянтин',
+      rating: 5,
+      comment:
+        'Все чудово Зв`язалися швидко і відповіли на запитання Дякую'
+    },
     {
       name: 'Денис',
       rating: 5,
